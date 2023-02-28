@@ -12,3 +12,11 @@ body {
   font-size: font.$font-size-400;
   font-family: font.$lora;
 }
+
+p {
+  font-size: font.$font-size-500;  
+}
+
+a:hover {
+  cursor: pointer;
+}

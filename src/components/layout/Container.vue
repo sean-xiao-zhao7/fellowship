@@ -10,8 +10,8 @@
     <div id="nav-container">
       <nav>
         <img src="../../assets/images/fellowship_icon.png" />
-        <a>Home</a>
         <a>Mission</a>
+        <a>Sermons</a>
         <a>Events</a>
         <a>Support Us</a>
         <a>AGM</a>
@@ -19,7 +19,7 @@
     </div>
   </header>
   <main>
-    <slot> Nothing! </slot>
+    <slot>Page under construction.</slot>
   </main>
   <footer>&#xa9; Fellowship Streetsville {{ new Date().getFullYear() }}</footer>
 </template>
@@ -30,7 +30,7 @@
 
 #top-header {
   padding: 1.2rem 7rem;
-  background-color: colors.$primary;
+  background: linear-gradient(colors.$primary-light, colors.$primary);
   display: grid;
   grid-template-columns: 55% repeat(4, 1fr);
   grid-column-gap: 1rem;
