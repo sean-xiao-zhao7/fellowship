@@ -1,0 +1,5 @@
+@use './font';
+
+h1 {
+    font-family: font.$crimson;
+}

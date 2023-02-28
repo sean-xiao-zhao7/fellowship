@@ -1,4 +1,5 @@
 @use './font';
+@use './headings';
 
 *,
 html,
@@ -9,4 +10,5 @@ body {
 
 body {
   font-size: font.$font-size-400;
+  font-family: font.$lora;
 }

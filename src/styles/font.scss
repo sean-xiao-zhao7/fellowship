@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('../assets/fonts/CrimsonText-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../assets/fonts/Lora-VariableFont_wght.ttf');
+}
+
 $font-size-300: 0.75rem;
 /* 12px */
 $font-size-400: 1rem;
@@ -12,3 +22,8 @@ $font-size-800: 2rem;
 /* 32px */
 $font-size-900: 2.25rem;
 /* 36px */
+
+$crimson: 'Crimson Text',
+serif;
+$lora: 'Lora',
+serif;
