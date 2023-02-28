@@ -1,7 +1,14 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
+<script>
+import { RouterView } from 'vue-router'
+import Header from './components/layout/Header.vue'
+
+export default {
+  components: { Header }
+}
 </script>
 
 <template>
-  <RouterView />
+  <Header>
+    <RouterView />
+  </Header>
 </template>
