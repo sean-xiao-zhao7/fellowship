@@ -37,7 +37,7 @@ export default {
         animation="wrench"
         hover="true"
       />
-      <p>EVERY SUNDAY @ 11AM (RAIN OR SHINE OR SNOWSTORM)</p>
+      <p>EVERY SUNDAY @ 11AM - In person and on Zoom</p>
     </div>
     <div class="home-section-icon-row">
       <v-icon
@@ -109,10 +109,12 @@ section:not(#hero) {
 #hero {
   h1 {
     text-align: center;
+    color: colors.$primary-dark;
   }
 
   p {
-    padding: 2rem 7rem;
+    padding-bottom: 1rem;
+    margin: 2rem 7rem;
   }
 }
 
@@ -128,5 +130,6 @@ img {
 h2 {
   text-align: center;
   margin-bottom: 0.5rem;
+  color: colors.$primary-dark;
 }
 </style>
