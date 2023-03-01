@@ -63,6 +63,7 @@ main {
   margin: 1rem 5rem;
   background-color: whitesmoke;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 footer {
