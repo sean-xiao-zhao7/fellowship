@@ -1,7 +1,12 @@
 <script>
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
-import { IoTimeOutline } from 'oh-vue-icons/icons'
-addIcons(IoTimeOutline)
+import {
+  IoTimeOutline,
+  LaUserFriendsSolid,
+  HiSolidLocationMarker,
+  FaBible
+} from 'oh-vue-icons/icons'
+addIcons(IoTimeOutline, HiSolidLocationMarker, LaUserFriendsSolid, FaBible)
 
 export default {
   components: {
@@ -24,23 +29,57 @@ export default {
   <section>
     <h2>Visit us - everyone welcome!</h2>
     <div class="home-section-icon-row">
-      <v-icon name="io-time-outline" scale="2.5" fill="blue" animation="wrench" hover="true" />
+      <v-icon
+        class="icon"
+        name="io-time-outline"
+        scale="2.5"
+        fill="blue"
+        animation="wrench"
+        hover="true"
+      />
+      <p>EVERY SUNDAY @ 11AM (RAIN OR SHINE OR SNOWSTORM)</p>
+    </div>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="hi-solid-location-marker"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
       <p>
-        EVERY SUNDAY @ 11AM (RAIN OR SHINE OR SNOWSTORM) RIVER GROVE COMMUNITY CENTER (BRISTOL &
-        CREDITVIEW) 5800 River Grove Avenue, Mississauga ON.
+        RIVER GROVE COMMUNITY CENTER (BRISTOL & CREDITVIEW) 5800 River Grove Avenue, Mississauga ON.
       </p>
     </div>
   </section>
   <section>
-    <h2>What we can do for you and your family</h2>
-    <p>
-      Join us every Sunday morning from 11-12:30PM at River Grove Community Centre for worship,
-      fellowship, and Bible teaching. Also, we have activities for children and infants (ages 0-12)
-    </p>
+    <h2>Get involved! For you and your family</h2>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="la-user-friends-solid"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>FUN FOR FAMILY & KIDS! Preschool and Nursery provided Children’s Program during service</p>
+    </div>
   </section>
   <section>
     <h2>Current activities</h2>
-    <p>SERMON SERIES – TRUTHS IN THE GOSPELS</p>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="fa-bible"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>SERMON SERIES – TRUTHS IN THE GOSPELS</p>
+    </div>
   </section>
 </template>
 
@@ -53,14 +92,18 @@ section {
 
   .home-section-icon-row {
     display: grid;
-    grid-template-columns: 10% 1fr;
-    place-items: center;
+    grid-template-columns: 15% 1fr;
+    align-items: center;
+    margin-bottom: 0.5rem;
 
     .icon {
-      width: 50%;
-      height: 100%;
+      justify-self: center;
     }
   }
+}
+
+section:not(#hero) {
+  margin-bottom: 3rem;
 }
 
 #hero {
@@ -84,6 +127,6 @@ img {
 
 h2 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 </style>
