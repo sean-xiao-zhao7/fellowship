@@ -1,5 +1,6 @@
 @use './font';
 @use './headings';
+@use './colors';
 
 *,
 html,
@@ -14,9 +15,16 @@ body {
 }
 
 p {
-  font-size: font.$font-size-500;  
+  font-size: font.$font-size-500;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  clear: both;
+  background-color: colors.$sky-light;
+  margin: 3rem 0;
 }

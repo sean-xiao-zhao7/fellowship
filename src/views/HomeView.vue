@@ -1,12 +1,13 @@
 <script>
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
 import {
-  IoTimeOutline,
+  BiClockFill,
+  GiBookCover,
   LaUserFriendsSolid,
   HiSolidLocationMarker,
   FaBible
 } from 'oh-vue-icons/icons'
-addIcons(IoTimeOutline, HiSolidLocationMarker, LaUserFriendsSolid, FaBible)
+addIcons(BiClockFill, HiSolidLocationMarker, LaUserFriendsSolid, FaBible, GiBookCover)
 
 export default {
   components: {
@@ -25,19 +26,21 @@ export default {
       we'd love to see you some day.
     </p>
   </section>
-  <img src="../assets/images/hero_background.jpg" />
+  <img src="../assets/images/hero_background.jpg" class="float-right" />
   <section>
     <h2>Visit us - everyone welcome!</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
-        name="io-time-outline"
+        name="bi-clock-fill"
         scale="2.5"
-        fill="blue"
+        fill="#4486bf"
         animation="wrench"
         hover="true"
       />
-      <p>EVERY SUNDAY @ 11AM - In person and on Zoom</p>
+      <div>
+        <p>Every Sunday 11AM - In person and on Zoom</p>
+      </div>
     </div>
     <div class="home-section-icon-row">
       <v-icon
@@ -48,13 +51,14 @@ export default {
         animation="wrench"
         hover="true"
       />
-      <p>
-        RIVER GROVE COMMUNITY CENTER (BRISTOL & CREDITVIEW) 5800 River Grove Avenue, Mississauga ON.
-      </p>
+      <div>
+        <p>River Grove Community Center - Bristol & Creditview.</p>
+        <p>5800 River Grove Ave. Mississauga, Ontario.</p>
+      </div>
     </div>
   </section>
   <section>
-    <h2>Get involved! For you and your family</h2>
+    <h2>Fun activities for kids!</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
@@ -64,11 +68,16 @@ export default {
         animation="wrench"
         hover="true"
       />
-      <p>FUN FOR FAMILY & KIDS! Preschool and Nursery provided Children’s Program during service</p>
+      <div>
+        <p>
+          Fun for family and kids, preschool and nursery provided children’s program during service.
+        </p>
+        <p>Activities include arts & crafts, games, books, etc.</p>
+      </div>
     </div>
   </section>
   <section>
-    <h2>Current activities</h2>
+    <h2>Current sermon series</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
@@ -78,7 +87,81 @@ export default {
         animation="wrench"
         hover="true"
       />
-      <p>SERMON SERIES – TRUTHS IN THE GOSPELS</p>
+      <p>
+        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
+        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
+        into legalism.
+      </p>
+    </div>
+  </section>
+  <div class="divider"></div>
+  <img src="../assets/images/hero_background2.jpg" class="float-left" />
+  <section>
+    <h2>Thursday Night Bible Study</h2>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="gi-book-cover"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>The Book of Acts.</p>
+    </div>
+  </section>
+  <section>
+    <h2>Current sermon series</h2>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="fa-bible"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>
+        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
+        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
+        into legalism.
+      </p>
+    </div>
+  </section>
+  <section>
+    <h2>Current sermon series</h2>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="fa-bible"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>
+        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
+        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
+        into legalism.
+      </p>
+    </div>
+  </section>
+  <section>
+    <h2>Current sermon series</h2>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="fa-bible"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>
+        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
+        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
+        into legalism.
+      </p>
     </div>
   </section>
 </template>
@@ -120,11 +203,19 @@ section:not(#hero) {
 
 img {
   height: 30rem;
-  width: 20rem;
+  width: 16rem;
   object-fit: cover;
   border-radius: 5px;
-  float: right;
-  margin-left: 2rem;
+
+  &.float-right {
+    float: right;
+    margin-left: 2rem;
+  }
+
+  &.float-left {
+    float: left;
+    margin-right: 2rem;
+  }
 }
 
 h2 {
