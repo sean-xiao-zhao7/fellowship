@@ -21,7 +21,13 @@
   <main>
     <slot>Page under construction.</slot>
   </main>
-  <footer>&#xa9; Fellowship Streetsville {{ new Date().getFullYear() }}</footer>
+  <footer>
+    <p>&#xa9; Fellowship Streetsville {{ new Date().getFullYear() }}</p>
+    <div id="sponsors">
+      <img src="../../assets/images/north_american_mission_board.png" />
+      <img src="../../assets/images/cnbc.jpg" />
+    </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
@@ -60,7 +66,7 @@
 
 main {
   padding: 2rem 5rem;
-  margin: 1rem 5rem;
+  margin: 0rem 5rem;
   background-color: whitesmoke;
   border-radius: 5px;
   overflow: hidden;
@@ -71,5 +77,19 @@ footer {
   color: white;
   padding: 5rem;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-size: font.$font-size-400;
+  }
+
+  #sponsors img {
+    height: 4rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
 }
 </style>

@@ -29,9 +29,10 @@ export default {
 </script>
 
 <template>
+  <img src="../assets/images/hero_background3.jpg" id="home-intro-image" />
   <section id="hero">
-    <h1>Community Church in Mississauga</h1>
-    <h1>Serving the GTA and southern Ontario</h1>
+    <h1>Your Community Church in Streetsville</h1>
+    <h1>Serving Mississauga, the GTA and southern Ontario</h1>
     <p>
       Practical truth for everyday life. We are a church with a focus on practical teaching from the
       Bible and applying it to our lives in a friendly family like atmosphere. Everyone is welcome,
@@ -223,6 +224,11 @@ img {
   &.float-left {
     float: left;
     margin-right: 2rem;
+  }
+
+  &#home-intro-image {
+    width: 100%;
+    height: 17rem;
   }
 }
 
