@@ -5,9 +5,21 @@ import {
   GiBookCover,
   LaUserFriendsSolid,
   HiSolidLocationMarker,
-  FaBible
+  FaBible,
+  BiYoutube,
+  GiChurch,
+  FaCanadianMapleLeaf
 } from 'oh-vue-icons/icons'
-addIcons(BiClockFill, HiSolidLocationMarker, LaUserFriendsSolid, FaBible, GiBookCover)
+addIcons(
+  BiClockFill,
+  GiChurch,
+  HiSolidLocationMarker,
+  LaUserFriendsSolid,
+  FaBible,
+  GiBookCover,
+  BiYoutube,
+  FaCanadianMapleLeaf
+)
 
 export default {
   components: {
@@ -93,6 +105,21 @@ export default {
         into legalism.
       </p>
     </div>
+    <div class="home-section-icon-row">
+      <v-icon
+        class="icon"
+        name="bi-youtube"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover="true"
+      />
+      <p>
+        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221"
+          >Listen to sermons on YouTube</a
+        >
+      </p>
+    </div>
   </section>
   <div class="divider"></div>
   <img src="../assets/images/hero_background2.jpg" class="float-left" />
@@ -111,56 +138,37 @@ export default {
     </div>
   </section>
   <section>
-    <h2>Current sermon series</h2>
+    <h2>Life Groups</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
-        name="fa-bible"
+        name="gi-church"
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
         hover="true"
       />
       <p>
-        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
-        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
-        into legalism.
+        Life Groups are the heartbeat of our church. Whether you want a deeper understanding of the
+        Bible, or just want to enjoy the company of friends, check out our life groups that meet
+        throughout the week.
       </p>
     </div>
   </section>
   <section>
-    <h2>Current sermon series</h2>
+    <h2>Community outreach</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
-        name="fa-bible"
+        name="fa-canadian-maple-leaf"
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
         hover="true"
       />
       <p>
-        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
-        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
-        into legalism.
-      </p>
-    </div>
-  </section>
-  <section>
-    <h2>Current sermon series</h2>
-    <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="fa-bible"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover="true"
-      />
-      <p>
-        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
-        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
-        into legalism.
+        Whether it is seasonal events such as a christmas party or informal get togethers, check out
+        our Facebook page to learn more about upcoming opportunities to get involved.
       </p>
     </div>
   </section>

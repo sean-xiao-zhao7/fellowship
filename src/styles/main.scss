@@ -18,6 +18,10 @@ p {
   font-size: font.$font-size-500;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   cursor: pointer;
 }
