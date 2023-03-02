@@ -10,11 +10,11 @@
     <div id="nav-container">
       <nav>
         <img src="../../assets/images/fellowship_icon.png" />
-        <a>Mission</a>
-        <a>Sermons</a>
-        <a>Events</a>
-        <a>Support Us</a>
-        <a>AGM</a>
+        <a>Plan a visit</a>
+        <a>Our mission</a>
+        <a>Past sermons</a>
+        <a>Giving</a>
+        <a>Contact</a>
       </nav>
     </div>
   </header>

@@ -49,7 +49,7 @@ export default {
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
-        hover="true"
+        hover
       />
       <div>
         <p>Every Sunday 11AM - In person and on Zoom</p>
@@ -62,7 +62,7 @@ export default {
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
-        hover="true"
+        hover
       />
       <div>
         <p>River Grove Community Center - Bristol & Creditview.</p>
@@ -79,7 +79,7 @@ export default {
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
-        hover="true"
+        hover
       />
       <div>
         <p>
@@ -92,14 +92,7 @@ export default {
   <section>
     <h2>Current sermon series</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="fa-bible"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover="true"
-      />
+      <v-icon class="icon" name="fa-bible" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
         The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
         the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
@@ -107,14 +100,7 @@ export default {
       </p>
     </div>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="bi-youtube"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover="true"
-      />
+      <v-icon class="icon" name="bi-youtube" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
         <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221"
           >Listen to sermons on YouTube</a
@@ -133,7 +119,7 @@ export default {
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
-        hover="true"
+        hover
       />
       <p>The Book of Acts.</p>
     </div>
@@ -141,14 +127,7 @@ export default {
   <section>
     <h2>Life Groups</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="gi-church"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover="true"
-      />
+      <v-icon class="icon" name="gi-church" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
         Life Groups are the heartbeat of our church. Whether you want a deeper understanding of the
         Bible, or just want to enjoy the company of friends, check out our life groups that meet
@@ -165,7 +144,7 @@ export default {
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
-        hover="true"
+        hover
       />
       <p>
         Whether it is seasonal events such as a christmas party or informal get togethers, check out
