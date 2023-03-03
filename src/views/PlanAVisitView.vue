@@ -1,7 +1,7 @@
 <script>
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
-import { BiClockFill, HiSolidLocationMarker } from 'oh-vue-icons/icons'
-addIcons(BiClockFill, HiSolidLocationMarker)
+import { BiClockFill, HiSolidLocationMarker, RiComputerLine } from 'oh-vue-icons/icons'
+addIcons(BiClockFill, HiSolidLocationMarker, RiComputerLine)
 
 export default {
   components: {
@@ -37,8 +37,8 @@ export default {
         hover
       />
       <div>
-        <p>Sunday service starts at around 11 AM every week.</p>
-        <p>People usually arrive 15 mins before to chat about their week.</p>
+        <p>Sunday service starts at around 11 AM every week. Both in person and online.</p>
+        <p>People usually arrive/join online 15 mins before to chat about their week.</p>
       </div>
     </div>
     <div class="icon-row">
@@ -62,6 +62,24 @@ export default {
           North unto River Grove Ave.
         </p>
         <p>Carpooling is available by church members, please contact us.</p>
+      </div>
+    </div>
+    <div class="icon-row">
+      <v-icon
+        class="icon"
+        name="ri-computer-line"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover
+      />
+      <div>
+        <p>Connect with us online!</p>
+        <p>WhatsApp group is available. Zoom links will be sent here.</p>
+        <p>
+          Join our Facebook page
+          <a href="https://www.facebook.com/FellowshipGTA" target="_blank">here</a>.
+        </p>
       </div>
     </div>
     <div class="full-width-container">
