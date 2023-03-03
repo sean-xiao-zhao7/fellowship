@@ -1,0 +1,38 @@
+@use './font';
+@use './colors';
+
+#view-container {
+    padding-bottom: 1rem;
+    margin: 1rem 6rem;
+
+    h1 {
+        text-align: center;
+        color: colors.$primary-dark;
+    }
+
+    img {
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    #view-intro {
+        margin-top: 2rem;
+        padding: 0 4rem;
+    }
+
+    .icon-row {
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: 15% 1fr;
+        align-items: center;
+
+        .icon {
+            justify-self: center;
+        }
+
+        p {
+            font-size: font.$font-size-500;
+            margin-bottom: 0.5rem;
+        }
+    }
+}

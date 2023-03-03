@@ -81,8 +81,11 @@
         font-size: font.$font-size-700;
       }
 
-      &:not(:nth-child(1)):hover {
-        border-bottom: solid 2px colors.$primary;
+      &:not(:nth-child(1)) {
+        &:hover,
+        &.router-link-active {
+          border-bottom: solid 2px colors.$primary;
+        }
       }
     }
   }
