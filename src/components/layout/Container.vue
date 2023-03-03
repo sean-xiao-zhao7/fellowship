@@ -11,8 +11,8 @@
       <nav>
         <img src="../../assets/images/fellowship_icon.png" />
         <a>Plan a visit</a>
-        <a>Our mission</a>
         <a>Past sermons</a>
+        <a>Our mission</a>
         <a>Giving</a>
         <a>Contact</a>
       </nav>
@@ -42,8 +42,10 @@
   grid-column-gap: 1rem;
   place-items: center;
   color: white;
-  a {
+  a,
+  a:visited {
     font-size: font.$font-size-500;
+    color: white;
   }
 }
 
@@ -57,10 +59,15 @@
   nav {
     height: 8rem;
     font-family: font.$crimson;
-    font-size: font.$font-size-800;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     place-items: center;
+
+    a,
+    a:visited {
+      color: black;
+      font-size: font.$font-size-700;
+    }
   }
 }
 
