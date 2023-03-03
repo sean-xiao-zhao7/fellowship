@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AboutView from '../views/AboutView.vue'
+
 import AGMView from '../views/AGMView.vue'
-import BlogView from '../views/BlogView.vue'
 import ContactView from '../views/ContactView.vue'
-import EventsView from '../views/EventsView.vue'
 import GivingView from '../views/GivingView.vue'
 import HomeView from '../views/HomeView.vue'
+import OurMissionView from '../views/OurMissionView.vue'
+import PastSermonsView from '../views/PastSermonsView.vue'
+import PlanAVisitView from '../views/PlanAVisitView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,19 +17,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: AboutView
-    },
-    {
       path: '/agm',
       name: 'agm',
       component: AGMView
-    },
-    {
-      path: '/blog',
-      name: 'blog',
-      component: BlogView
     },
     {
       path: '/contact',
@@ -36,14 +27,24 @@ const router = createRouter({
       component: ContactView
     },
     {
-      path: '/events',
-      name: 'events',
-      component: EventsView
-    },
-    {
       path: '/giving',
       name: 'giving',
       component: GivingView
+    },
+    {
+      path: '/ourmission',
+      name: 'ourmission',
+      component: OurMissionView
+    },
+    {
+      path: '/pastsermons',
+      name: 'pastsermons',
+      component: PastSermonsView
+    },
+    {
+      path: '/planavisit',
+      name: 'planavisit',
+      component: PlanAVisitView
     }
   ]
 })

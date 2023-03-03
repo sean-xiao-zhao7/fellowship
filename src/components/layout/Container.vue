@@ -6,6 +6,7 @@
       <a>YouTube</a>
       <a>Contact Us</a>
       <a>Support Us</a>
+      <a>AGM</a>
     </div>
     <div id="nav-container">
       <nav>
@@ -35,10 +36,10 @@
 @use '../../styles/colors.scss';
 
 #top-header {
-  padding: 1.2rem 7rem;
+  padding: 1.2rem 3rem;
   background: linear-gradient(colors.$primary-light, colors.$primary);
   display: grid;
-  grid-template-columns: 55% repeat(4, 1fr);
+  grid-template-columns: 45% repeat(5, 1fr);
   grid-column-gap: 1rem;
   place-items: center;
   color: white;
