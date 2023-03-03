@@ -10,12 +10,12 @@
     </div>
     <div id="nav-container">
       <nav>
-        <img src="../../assets/images/fellowship_icon.png" />
-        <a>Plan a visit</a>
-        <a>Past sermons</a>
-        <a>Our mission</a>
-        <a>Giving</a>
-        <a>Contact</a>
+        <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
+        <router-link to="/planavisit">Plan a visit</router-link>
+        <router-link to="/pastsermons">Past sermons</router-link>
+        <router-link to="/ourmission">Our mission</router-link>
+        <router-link to="/giving">Giving</router-link>
+        <router-link to="/contact">Contact</router-link>
       </nav>
     </div>
   </header>
@@ -43,10 +43,18 @@
   grid-column-gap: 1rem;
   place-items: center;
   color: white;
-  a,
-  a:visited {
-    font-size: font.$font-size-500;
-    color: white;
+  a {
+    border: solid 1px transparent;
+    transition: border 0.1s;
+    &,
+    &:visited {
+      font-size: font.$font-size-500;
+      color: white;
+    }
+
+    &:hover {
+      border-bottom: solid 1px white;
+    }
   }
 }
 
@@ -64,10 +72,18 @@
     grid-template-columns: repeat(6, 1fr);
     place-items: center;
 
-    a,
-    a:visited {
-      color: black;
-      font-size: font.$font-size-700;
+    a {
+      border-bottom: solid 2px transparent;
+      transition: border 0.1s;
+      &,
+      &:visited {
+        color: black;
+        font-size: font.$font-size-700;
+      }
+
+      &:not(:nth-child(1)):hover {
+        border-bottom: solid 2px colors.$primary;
+      }
     }
   }
 }
