@@ -20,10 +20,16 @@ p {
 
 a {
   text-decoration: none;
+  font-size: font.$font-size-500;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+a,
+a:visited {
+  color: colors.$primary;
 }
 
 .divider {

@@ -67,6 +67,7 @@ export default {
       <div>
         <p>River Grove Community Center - Bristol & Creditview.</p>
         <p>5800 River Grove Ave. Mississauga, Ontario.</p>
+        <a href="https://goo.gl/maps/KUdqaeY1iRCyBEms9" target="_blank">See on Google Maps</a>
       </div>
     </div>
   </section>
@@ -83,7 +84,8 @@ export default {
       />
       <div>
         <p>
-          Fun for family and kids, preschool and nursery provided children’s program during service.
+          Fun for family and kids, preschool and nursery provided children’s program during service
+          every Sunday.
         </p>
         <p>Activities include arts & crafts, games, books, etc.</p>
       </div>
@@ -102,7 +104,7 @@ export default {
     <div class="home-section-icon-row">
       <v-icon class="icon" name="bi-youtube" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
-        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221"
+        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
           >Listen to sermons on YouTube</a
         >
       </p>
@@ -121,22 +123,21 @@ export default {
         animation="wrench"
         hover
       />
-      <p>The Book of Acts.</p>
+      <div>
+        <p>Every Thursday at 8PM on Zoom. See WhatsApp for link.</p>
+        <p>Current study: the Book of Acts.</p>
+      </div>
     </div>
   </section>
   <section>
     <h2>Life Groups</h2>
     <div class="home-section-icon-row">
       <v-icon class="icon" name="gi-church" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <p>
-        Life Groups are the heartbeat of our church. Whether you want a deeper understanding of the
-        Bible, or just want to enjoy the company of friends, check out our life groups that meet
-        throughout the week.
-      </p>
+      <p>We have groups for young adults, women, Spanish speakers, etc.</p>
     </div>
   </section>
   <section>
-    <h2>Community outreach</h2>
+    <h2>Community events</h2>
     <div class="home-section-icon-row">
       <v-icon
         class="icon"
@@ -147,8 +148,8 @@ export default {
         hover
       />
       <p>
-        Whether it is seasonal events such as a christmas party or informal get togethers, check out
-        our Facebook page to learn more about upcoming opportunities to get involved.
+        We run community events such as Easter egg hunt and Friday night boardgame event at Dicey
+        Business.
       </p>
     </div>
   </section>
@@ -190,7 +191,7 @@ section:not(#hero) {
 }
 
 img {
-  height: 30rem;
+  height: 35rem;
   width: 16rem;
   object-fit: cover;
   border-radius: 5px;
