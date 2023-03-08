@@ -4,7 +4,7 @@ import AGMView from '../views/AGMView.vue'
 import ContactView from '../views/ContactView.vue'
 import GivingView from '../views/GivingView.vue'
 import HomeView from '../views/HomeView.vue'
-import OurMissionView from '../views/OurMissionView.vue'
+import AboutUsView from '../views/AboutUsView.vue'
 import PastSermonsView from '../views/PastSermonsView.vue'
 import PlanAVisitView from '../views/PlanAVisitView.vue'
 
@@ -32,9 +32,9 @@ const router = createRouter({
       component: GivingView
     },
     {
-      path: '/ourmission',
-      name: 'ourmission',
-      component: OurMissionView
+      path: '/aboutus',
+      name: 'aboutus',
+      component: AboutUsView
     },
     {
       path: '/pastsermons',

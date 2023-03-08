@@ -13,7 +13,7 @@
         <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
         <router-link to="/planavisit">Plan a visit</router-link>
         <router-link to="/pastsermons">Past sermons</router-link>
-        <router-link to="/ourmission">About us</router-link>
+        <router-link to="/aboutus">About us</router-link>
         <router-link to="/giving">Giving</router-link>
         <router-link to="/contact">Contact</router-link>
       </nav>
