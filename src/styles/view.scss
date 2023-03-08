@@ -36,4 +36,20 @@
             margin-bottom: 0.5rem;
         }
     }
+
+    .quote {
+        background-color: white;
+        padding: 3rem;
+        border-radius: 15px;
+        color: colors.$primary;
+
+        .quote-subtext {
+            display: block;
+            text-align: right;
+        }
+    }
+
+    .margin-section {
+        margin: 2rem 0;
+    }
 }

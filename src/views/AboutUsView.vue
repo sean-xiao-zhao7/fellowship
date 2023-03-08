@@ -230,16 +230,4 @@
     }
   }
 }
-
-.quote {
-  background-color: white;
-  padding: 3rem;
-  border-radius: 15px;
-  color: colors.$primary;
-
-  .quote-subtext {
-    display: block;
-    text-align: right;
-  }
-}
 </style>
