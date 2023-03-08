@@ -52,4 +52,15 @@
     .margin-section {
         margin: 2rem 0;
     }
+
+    .section-icon-row {
+        display: grid;
+        grid-template-columns: 15% 1fr;
+        align-items: center;
+        margin-bottom: 0.5rem;
+
+        .icon {
+            justify-self: center;
+        }
+    }
 }
