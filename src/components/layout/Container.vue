@@ -1,12 +1,27 @@
+<script>
+import { addIcons, OhVueIcon } from 'oh-vue-icons'
+import { BiFacebook, BiYoutube, HiMail } from 'oh-vue-icons/icons'
+addIcons(HiMail, BiFacebook, BiYoutube)
+
+export default {
+  components: {
+    'v-icon': OhVueIcon
+  }
+}
+</script>
 <template>
   <header>
     <div id="top-header">
       <div></div>
-      <a>Facebook</a>
-      <a>YouTube</a>
-      <a>Contact Us</a>
-      <a>Support Us</a>
-      <a>AGM</a>
+      <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
+        ><v-icon class="icon" name="bi-facebook" scale="1.5" animation="wrench" hover />Facebook</a
+      >
+      <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
+        ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
+      >
+      <router-link to="/contact">Contact Us</router-link>
+      <router-link to="/giving">Support Us</router-link>
+      <router-link to="/agm">AGM</router-link>
     </div>
     <div id="nav-container">
       <nav>
@@ -46,6 +61,10 @@
   a {
     border: solid 1px transparent;
     transition: border 0.1s;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 0.2rem;
+    align-items: center;
     &,
     &:visited {
       font-size: font.$font-size-500;
