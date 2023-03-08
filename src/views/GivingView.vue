@@ -78,6 +78,14 @@
     form {
       display: grid;
       grid-row-gap: 1rem;
+
+      select {
+        font-family: font.$lora;
+        font-size: font.$font-size-400;
+        padding: 0.5rem 1rem;
+        border: solid 1px colors.$primary;
+        border-radius: 5px;
+      }
     }
   }
 }
