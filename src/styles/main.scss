@@ -47,3 +47,8 @@ select {
   border: solid 1px colors.$primary;
   border-radius: 5px;
 }
+
+ul,
+ol {
+  list-style-position: inside;
+}

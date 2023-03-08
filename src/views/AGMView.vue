@@ -19,8 +19,9 @@ export default {
       <option value="2018">Year 2018</option>
     </select>
     <section class="margin-section" v-if="currentYear === '2022'">
+      <h2>Fellowship Church Streetsville AGM 2022</h2>
       <h2>Agenda:</h2>
-      <ul>
+      <ul class="agenda">
         <li>Prayer</li>
         <li>Call to the Meeting</li>
         <li>Quorum verification</li>
@@ -128,7 +129,7 @@ export default {
         This year our AGM is held online via Zoom and at River Grove community Center. Time 12:23PM.
       </p>
       <h2>Agenda:</h2>
-      <ul>
+      <ul class="agenda">
         <li>Prayer</li>
         <li>Call to the Meeting</li>
         <li>Quorum verification</li>
@@ -186,7 +187,7 @@ export default {
       <h2>FELLOWSHIP CHURCH GTA NOVEMBER 15th, 2020</h2>
       <p>This year our AGM is held online via Zoom. Time 12:25pm.</p>
       <h2>Agenda:</h2>
-      <ul>
+      <ul class="agenda">
         <li>Prayer</li>
         <li>Call to the Meeting</li>
         <li>Quorum verification</li>
@@ -257,7 +258,7 @@ export default {
       <h2>FELLOWSHIP CHURCH GTA 2019 AGM OCTOBER 27, 2019 FRANK MCKECHNIE COMMUNITY CENTER</h2>
       <p>Starting time 11:55 am .</p>
       <h2>Agenda:</h2>
-      <ul>
+      <ul class="agenda">
         <li>Call the meeting to order</li>
         <li>Welcome and address – Pastor David</li>
         <li>Quorum verification</li>
@@ -374,3 +375,21 @@ export default {
     </section>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@use '../styles/font.scss';
+ul {
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+ol,
+ul {
+  li {
+    margin: 1rem 0;
+    font-size: font.$font-size-500;
+  }
+}
+</style>
