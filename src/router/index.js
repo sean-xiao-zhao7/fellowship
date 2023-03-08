@@ -17,11 +17,6 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/agm',
-      name: 'agm',
-      component: AGMView
-    },
-    {
       path: '/contact',
       name: 'contact',
       component: ContactView
@@ -45,6 +40,11 @@ const router = createRouter({
       path: '/planavisit',
       name: 'planavisit',
       component: PlanAVisitView
+    },
+    {
+      path: '/agm',
+      name: 'agm',
+      component: AGMView
     }
   ]
 })
