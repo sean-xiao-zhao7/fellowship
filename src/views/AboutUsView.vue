@@ -27,10 +27,10 @@
             >request a pastoral visit.</a
           >
         </p>
-        <p>
+        <p class="quote">
           “And he gave the apostles, the prophets, the evangelists, the shepherds and teachers, to
-          equip the saints for the work of ministry, for building up the body of Christ” – Ephesians
-          4:11-12
+          equip the saints for the work of ministry, for building up the body of Christ.”
+          <span class="quote-subtext"> – Ephesians 4:11-12 </span>
         </p>
       </div>
     </div>
@@ -88,7 +88,9 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+@use '../styles/colors.scss';
+
 .about-section {
   margin-bottom: 2rem;
 }
@@ -99,6 +101,7 @@
   margin-bottom: 2rem;
 
   img {
+    margin: 1rem 0;
     object-fit: cover;
     height: 20rem;
     width: 100%;
@@ -108,6 +111,18 @@
       height: 10rem;
       border-radius: 10rem !important;
     }
+  }
+}
+
+.quote {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  color: colors.$primary;
+
+  .quote-subtext {
+    display: block;
+    text-align: right;
   }
 }
 </style>
