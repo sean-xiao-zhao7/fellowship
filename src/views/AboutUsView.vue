@@ -43,17 +43,23 @@
         <p>
           Jamey Baird is a graduate of Ontario Bible College and of Tyndale Theological Seminary. He
           has been working with church planting and has done youth work for over 30 years within the
-          GTA. Jamey is married to his lovely wife Sonja, who is also involved in church planting
-          and youth work, and they are currently living in Milton. Jamey is bi-vocational, is on the
+          GTA.
+        </p>
+        <p>
+          Jamey is married to his lovely wife Sonja, who is also involved in church planting and
+          youth work, and they are currently living in Milton. Jamey is bi-vocational, is on the
           chaplain staff at Sheridan Villa Long Term Care facility and works with Solid Rock Chapel
           in Clarkson.
         </p>
         <p>
           Jamey loves nothing more than to answer your questions about Jesus. He understands that
           sometimes we can get caught up with misinformation about who Jesus was, what the church is
-          or what the Bible says. He wants to help others understand more about Christ. Jamey would
-          love to meet you at a coffee shop, for lunch after church, or even in your home to answer
-          all your questions and give a clear presentation of all that Jesus came to do for us.
+          or what the Bible says.
+        </p>
+        <p>
+          He wants to help others understand more about Christ. Jamey would love to meet you at a
+          coffee shop, for lunch after church, or even in your home to answer all your questions and
+          give a clear presentation of all that Jesus came to do for us.
         </p>
       </div>
       <div class="about-paragraphs">
@@ -64,14 +70,18 @@
           David grew up in Arganda del Rey, Madrid in Spain. From the beginning of his life he knew
           that there was something in his inner that needed to be fulfilled. At the age of 12, he
           surrendered his life to Christ and got baptized. From adolescence and because of his
-          parent’s example, David met the gospel in a very practical way. Helping his parents in
-          their ministry and being a witness of their love for people in social exclusion gave him a
-          perfect match of what the gospel is, a perfect example of how to live sacrificially and
-          seeking the good of others. David and his family came to Canada in April 2015, leaving
-          everything behind and without knowing anyone in Canada, taking a step of faith and
-          obedience. God was the connector between David’s family and Fellowship Church. Basketball
-          is one of David’s passions and it was because of that, Fellowship Church and David’s
-          family were connected.
+          parent’s example, David met the gospel in a very practical way.
+        </p>
+        <p>
+          Helping his parents in their ministry and being a witness of their love for people in
+          social exclusion gave him a perfect match of what the gospel is, a perfect example of how
+          to live sacrificially and seeking the good of others.
+        </p>
+        <p>
+          David and his family came to Canada in April 2015, leaving everything behind and without
+          knowing anyone in Canada, taking a step of faith and obedience. God was the connector
+          between David’s family and Fellowship Church. Basketball is one of David’s passions and it
+          was because of that, Fellowship Church and David’s family were connected.
         </p>
         <p>
           David is responsible for helping the congregation bring people to Christ, develop
