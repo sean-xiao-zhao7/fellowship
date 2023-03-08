@@ -15,31 +15,16 @@
         <h1>Give monthly</h1>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick" />
-
           <input type="hidden" name="hosted_button_id" value="HK4EF8DCZC4VW" />
-
+          <input type="hidden" name="on0" value="Select Monthly Donation Amount" />
+          <input type="hidden" name="currency_code" value="CAD" />
           <select name="os0">
-            <option value="Option 12">$10.00 CAD - monthly</option>
-            <option value="Option 11">$20.00 CAD - monthly</option>
             <option value="Option 10">$50.00 CAD - monthly</option>
-            <option value="Option 9">$75.00 CAD - monthly</option>
             <option value="Option 1">$100.00 CAD - monthly</option>
             <option value="Option 2">$200.00 CAD - monthly</option>
             <option value="Option 3">$250.00 CAD - monthly</option>
           </select>
-
-          <input type="hidden" name="currency_code" value="CAD" />
-
           <button type="submit" class="paypal-button">Donate monthly on PayPal</button>
-
-          <img
-            alt=""
-            border="0"
-            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-            a77wdefq3=""
-          />
         </form>
       </div>
     </div>
