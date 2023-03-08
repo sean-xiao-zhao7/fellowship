@@ -8,22 +8,7 @@
 
           <input type="hidden" name="hosted_button_id" value="G6W5VJCCNAFV2" />
 
-          <input
-            type="image"
-            src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-            border="0"
-            name="submit"
-            alt="PayPal - The safer, easier way to pay online!"
-          />
-
-          <img
-            alt=""
-            border="0"
-            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-            a77wdefq3=""
-          />
+          <button type="submit" class="paypal-button">Donate One Time on PayPal</button>
         </form>
       </div>
       <div class="giving-child">
@@ -33,50 +18,19 @@
 
           <input type="hidden" name="hosted_button_id" value="HK4EF8DCZC4VW" />
 
-          <table>
-            <tbody>
-              <tr>
-                <td>
-                  <input type="hidden" name="on0" value="Select Monthly Donation Amount" />Select
-                  Monthly Donation Amount
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <select name="os0">
-                    <option value="Option 10">Option 10 : $50.00 CAD - monthly</option>
-                    <option value="Option 9">Option 9 : $75.00 CAD - monthly</option>
-
-                    <option value="Option 1">Option 1 : $100.00 CAD - monthly</option>
-
-                    <option value="Option 2">Option 2 : $200.00 CAD - monthly</option>
-
-                    <option value="Option 3">Option 3 : $250.00 CAD - monthly</option>
-
-                    <option value="Option 4">Option 4 : $300.00 CAD - monthly</option>
-
-                    <option value="Option 5">Option 5 : $400.00 CAD - monthly</option>
-
-                    <option value="Option 6">Option 6 : $500.00 CAD - monthly</option>
-
-                    <option value="Option 7">Option 7 : $750.00 CAD - monthly</option>
-
-                    <option value="Option 8">Option 8 : $1,000.00 CAD - monthly</option>
-                  </select>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <select name="os0">
+            <option value="Option 12">$10.00 CAD - monthly</option>
+            <option value="Option 11">$20.00 CAD - monthly</option>
+            <option value="Option 10">$50.00 CAD - monthly</option>
+            <option value="Option 9">$75.00 CAD - monthly</option>
+            <option value="Option 1">$100.00 CAD - monthly</option>
+            <option value="Option 2">$200.00 CAD - monthly</option>
+            <option value="Option 3">$250.00 CAD - monthly</option>
+          </select>
 
           <input type="hidden" name="currency_code" value="CAD" />
 
-          <input
-            type="image"
-            src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif"
-            border="0"
-            name="submit"
-            alt="PayPal - The safer, easier way to pay online!"
-          />
+          <button type="submit" class="paypal-button">Donate monthly on PayPal</button>
 
           <img
             alt=""
@@ -109,12 +63,36 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/colors.scss';
+@use '../styles/font.scss';
+
 #giving-methods-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   p {
     margin: 1rem 0;
+  }
+
+  .giving-child {
+    form {
+      display: grid;
+      grid-row-gap: 1rem;
+    }
+  }
+}
+.paypal-button {
+  background-color: colors.$paypal;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  border: 0;
+  cursor: pointer;
+  font-size: font.$font-size-500;
+
+  &:hover,
+  &:active {
+    box-shadow: 1px 2px 2px #e0ab2e inset;
   }
 }
 </style>
