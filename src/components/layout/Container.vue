@@ -63,6 +63,7 @@ export default {
   @media only screen and (max-width: dimensions.$mobile-width) {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
   }
 
   a {
@@ -135,7 +136,7 @@ main {
   overflow: hidden;
 
   @media only screen and (max-width: dimensions.$mobile-width) {
-    margin: 1rem;
+    margin: 0;
     padding: 1rem;
   }
 }
@@ -152,6 +153,7 @@ footer {
 
   @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
+    margin: 0;
   }
 
   p {
