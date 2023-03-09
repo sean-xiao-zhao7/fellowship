@@ -50,16 +50,25 @@
 <style lang="scss" scoped>
 @use '../styles/colors.scss';
 @use '../styles/font.scss';
+@use '../styles/dimensions.scss';
 
 #giving-methods-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    flex-direction: column;
+  }
+
   p {
     margin: 1rem 0;
   }
 
   .giving-child {
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      margin-bottom: 1rem;
+    }
     form {
       display: grid;
       grid-row-gap: 1rem;
