@@ -11,6 +11,11 @@
         padding: 0;
     }
 
+    @media only screen and (max-width: dimensions.$tablet-width) {
+        margin: 1rem;
+        padding: 0;
+    }
+
     h1 {
         text-align: center;
         color: colors.$primary-dark;
@@ -30,7 +35,7 @@
         margin-top: 2rem;
         padding: 0 4rem;
 
-        @media only screen and (max-width: dimensions.$mobile-width) {
+        @media only screen and (max-width: dimensions.$tablet-width) {
             padding: 0;
         }
     }

@@ -101,6 +101,10 @@ export default {
     display: block;
   }
 
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    grid-template-columns: 1fr 20%;
+  }
+
   img {
     width: 15rem;
     height: 10rem;
@@ -108,6 +112,17 @@ export default {
     @media only screen and (max-width: dimensions.$mobile-width) {
       width: 100%;
       margin-top: 1rem;
+    }
+
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      width: 10rem;
+      height: 15rem;
+    }
+  }
+
+  & > div {
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      padding-right: 2rem;
     }
   }
 }
