@@ -89,15 +89,26 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/dimensions.scss';
+
 #view-intro {
   display: grid;
   grid-template-columns: 1fr 30%;
   grid-column-gap: 0.5rem;
   place-items: center;
 
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    display: block;
+  }
+
   img {
     width: 15rem;
     height: 10rem;
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      width: 100%;
+      margin-top: 1rem;
+    }
   }
 }
 
@@ -109,6 +120,10 @@ export default {
   img {
     width: 50%;
     height: 15rem;
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      width: 100%;
+    }
   }
 }
 </style>

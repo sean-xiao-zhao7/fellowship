@@ -1,14 +1,23 @@
 @use './font';
 @use './colors';
+@use './dimensions.scss';
 
 #view-container {
     padding-bottom: 1rem;
     margin: 1rem 6rem;
 
+    @media only screen and (max-width: dimensions.$mobile-width) {
+        margin: 1rem;
+    }
+
     h1 {
         text-align: center;
         color: colors.$primary-dark;
         margin-bottom: 1rem;
+
+        @media only screen and (max-width: dimensions.$mobile-width) {
+            font-size: font.$font-size-700;
+        }
     }
 
     img {
@@ -19,6 +28,10 @@
     #view-intro {
         margin-top: 2rem;
         padding: 0 4rem;
+
+        @media only screen and (max-width: dimensions.$mobile-width) {
+            padding: 0;
+        }
     }
 
     .icon-row {
@@ -27,6 +40,10 @@
         grid-template-columns: 15% 1fr;
         align-items: center;
 
+        @media only screen and (max-width: dimensions.$mobile-width) {
+            margin: 1rem 0;
+        }
+
         .icon {
             justify-self: center;
         }
@@ -34,6 +51,10 @@
         p {
             font-size: font.$font-size-500;
             margin-bottom: 0.5rem;
+
+            @media only screen and (max-width: dimensions.$mobile-width) {
+                margin-left: 1rem;
+            }
         }
     }
 
