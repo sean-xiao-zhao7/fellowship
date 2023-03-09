@@ -158,6 +158,7 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/font.scss';
 @use '../styles/colors.scss';
+@use '../styles/dimensions.scss';
 
 section {
   margin-top: 1rem;
@@ -168,8 +169,18 @@ section {
     align-items: center;
     margin-bottom: 0.5rem;
 
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      grid-template-columns: 20% 1fr;
+    }
+
     .icon {
       justify-self: center;
+    }
+  }
+
+  h2 {
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      font-size: font.$font-size-700;
     }
   }
 }
@@ -182,11 +193,19 @@ section:not(#hero) {
   h1 {
     text-align: center;
     color: colors.$primary-dark;
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      font-size: font.$font-size-700;
+    }
   }
 
   p {
     padding-bottom: 1rem;
     margin: 2rem 7rem;
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      margin: 1rem;
+    }
   }
 }
 
@@ -199,11 +218,17 @@ img {
   &.float-right {
     float: right;
     margin-left: 2rem;
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      display: none;
+    }
   }
 
   &.float-left {
     float: left;
     margin-right: 2rem;
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      display: none;
+    }
   }
 
   &#home-intro-image {

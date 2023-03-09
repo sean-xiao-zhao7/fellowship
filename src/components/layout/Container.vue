@@ -49,6 +49,7 @@ export default {
 <style lang="scss" scoped>
 @use '../../styles/font.scss';
 @use '../../styles/colors.scss';
+@use '../../styles/dimensions.scss';
 
 #top-header {
   padding: 1.2rem 3rem;
@@ -59,7 +60,7 @@ export default {
   place-items: center;
   color: white;
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: dimensions.$mobile-width) {
     display: flex;
     flex-direction: column;
   }
@@ -86,7 +87,7 @@ export default {
 #nav-container {
   padding: 1rem 8rem;
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
   }
 
@@ -101,7 +102,7 @@ export default {
     grid-template-columns: repeat(6, 1fr);
     place-items: center;
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: dimensions.$mobile-width) {
       display: flex;
       flex-direction: column;
       height: auto;
@@ -132,6 +133,11 @@ main {
   background-color: whitesmoke;
   border-radius: 5px;
   overflow: hidden;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    margin: 1rem;
+    padding: 1rem;
+  }
 }
 
 footer {
@@ -143,6 +149,10 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    padding: 1rem;
+  }
 
   p {
     font-size: font.$font-size-400;
