@@ -195,6 +195,10 @@ section {
 section:not(#hero) {
   margin-bottom: 3rem;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   @media only screen and (max-width: dimensions.$mobile-width) {
     margin-bottom: 1rem;
   }

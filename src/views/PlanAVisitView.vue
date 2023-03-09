@@ -136,7 +136,7 @@ export default {
     width: 50%;
     height: 15rem;
 
-    @media only screen and (max-width: dimensions.$mobile-width) {
+    @media only screen and (max-width: dimensions.$tablet-width) {
       width: 100%;
     }
   }

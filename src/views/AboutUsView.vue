@@ -229,7 +229,7 @@
       height: 10rem;
       border-radius: 10rem !important;
 
-      @media only screen and (max-width: dimensions.$mobile-width) {
+      @media only screen and (max-width: dimensions.$tablet-width) {
         display: block;
         margin: 0 auto;
       }

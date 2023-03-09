@@ -61,6 +61,10 @@
     flex-direction: column;
   }
 
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    display: grid;
+    grid-row-gap: 1rem;
+  }
   p {
     margin: 1rem 0;
   }
