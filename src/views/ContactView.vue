@@ -63,3 +63,18 @@ export default {
     </section>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@use '../styles/font.scss';
+@use '../styles/dimensions.scss';
+
+.section-icon-row {
+  a {
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      display: block;
+      overflow: scroll;
+      padding-left: 0.5rem;
+    }
+  }
+}
+</style>
