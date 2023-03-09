@@ -207,6 +207,7 @@
 
 <style lang="scss" scoped>
 @use '../styles/colors.scss';
+@use '../styles/dimensions.scss';
 
 .about-section {
   margin-bottom: 2rem;
@@ -227,6 +228,11 @@
       width: 10rem;
       height: 10rem;
       border-radius: 10rem !important;
+
+      @media only screen and (max-width: dimensions.$mobile-width) {
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 }
