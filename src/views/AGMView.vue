@@ -392,4 +392,11 @@ ul {
     font-size: font.$font-size-500;
   }
 }
+
+select {
+  display: block;
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
 </style>

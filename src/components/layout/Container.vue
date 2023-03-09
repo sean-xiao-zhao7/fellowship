@@ -38,7 +38,7 @@ export default {
     <slot>Page under construction.</slot>
   </main>
   <footer>
-    <p>&#xa9; Fellowship Streetsville {{ new Date().getFullYear() }}</p>
+    <p>&#xa9; Fellowship Church Streetsville {{ new Date().getFullYear() }}</p>
     <div id="sponsors">
       <img src="../../assets/images/north_american_mission_board.png" />
       <img src="../../assets/images/cnbc.jpg" />
@@ -58,6 +58,12 @@ export default {
   grid-column-gap: 1rem;
   place-items: center;
   color: white;
+
+  @media only screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
+
   a {
     border: solid 1px transparent;
     transition: border 0.1s;
@@ -80,6 +86,10 @@ export default {
 #nav-container {
   padding: 1rem 8rem;
 
+  @media only screen and (max-width: 480px) {
+    padding: 1rem;
+  }
+
   img {
     height: 7rem;
   }
@@ -90,6 +100,12 @@ export default {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     place-items: center;
+
+    @media only screen and (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
 
     a {
       border-bottom: solid 2px transparent;
