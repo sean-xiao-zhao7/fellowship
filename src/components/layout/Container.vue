@@ -66,6 +66,11 @@ export default {
     padding: 1rem;
   }
 
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    display: flex;
+    justify-content: center;
+  }
+
   a {
     border: solid 1px transparent;
     transition: border 0.1s;
@@ -92,6 +97,10 @@ export default {
     padding: 1rem;
   }
 
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    padding: 1rem;
+  }
+
   img {
     height: 7rem;
   }
@@ -107,6 +116,10 @@ export default {
       display: flex;
       flex-direction: column;
       height: auto;
+    }
+
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      grid-column-gap: 1rem;
     }
 
     a {
@@ -139,6 +152,11 @@ main {
     margin: 0;
     padding: 1rem;
   }
+
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    padding: 2rem;
+    margin: 0rem 2rem;
+  }
 }
 
 footer {
@@ -154,6 +172,10 @@ footer {
   @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
     margin: 0;
+  }
+
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    margin-top: 2rem;
   }
 
   p {
