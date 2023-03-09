@@ -187,6 +187,10 @@ section {
 
 section:not(#hero) {
   margin-bottom: 3rem;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    margin-bottom: 1rem;
+  }
 }
 
 #hero {
