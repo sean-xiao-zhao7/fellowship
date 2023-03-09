@@ -183,6 +183,13 @@ section {
       font-size: font.$font-size-700;
     }
   }
+
+  p,
+  a {
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      font-size: font.$font-size-500;
+    }
+  }
 }
 
 section:not(#hero) {
@@ -201,6 +208,10 @@ section:not(#hero) {
     @media only screen and (max-width: dimensions.$mobile-width) {
       font-size: font.$font-size-700;
     }
+
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      font-size: font.$font-size-800;
+    }
   }
 
   p {
@@ -210,6 +221,11 @@ section:not(#hero) {
     @media only screen and (max-width: dimensions.$mobile-width) {
       margin: 1rem;
     }
+
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      margin: 2rem 3rem;
+      font-size: font.$font-size-500;
+    }
   }
 }
 
@@ -218,6 +234,11 @@ img {
   width: 16rem;
   object-fit: cover;
   border-radius: 5px;
+
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    height: 15rem;
+    width: 10rem;
+  }
 
   &.float-right {
     float: right;
@@ -245,5 +266,9 @@ h2 {
   text-align: center;
   margin-bottom: 0.5rem;
   color: colors.$primary-dark;
+
+  @media only screen and (max-width: dimensions.$tablet-width) {
+    font-size: font.$font-size-700;
+  }
 }
 </style>
