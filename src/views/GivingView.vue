@@ -57,14 +57,15 @@
   flex-direction: row;
   justify-content: space-evenly;
 
-  @media only screen and (max-width: dimensions.$mobile-width) {
-    flex-direction: column;
-  }
-
   @media only screen and (max-width: dimensions.$tablet-width) {
     display: grid;
     grid-row-gap: 1rem;
   }
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    flex-direction: column;
+  }
+
   p {
     margin: 1rem 0;
   }

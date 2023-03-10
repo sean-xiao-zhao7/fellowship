@@ -209,12 +209,12 @@ section:not(#hero) {
     text-align: center;
     color: colors.$primary-dark;
 
-    @media only screen and (max-width: dimensions.$mobile-width) {
-      font-size: font.$font-size-700;
-    }
-
     @media only screen and (max-width: dimensions.$tablet-width) {
       font-size: font.$font-size-800;
+    }
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      font-size: font.$font-size-700;
     }
   }
 
@@ -222,13 +222,13 @@ section:not(#hero) {
     padding-bottom: 1rem;
     margin: 2rem 7rem;
 
-    @media only screen and (max-width: dimensions.$mobile-width) {
-      margin: 1rem;
-    }
-
     @media only screen and (max-width: dimensions.$tablet-width) {
       margin: 2rem 3rem;
       font-size: font.$font-size-500;
+    }
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      margin: 1rem;
     }
   }
 }

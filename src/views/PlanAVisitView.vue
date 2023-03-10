@@ -97,26 +97,26 @@ export default {
   grid-column-gap: 0.5rem;
   place-items: center;
 
-  @media only screen and (max-width: dimensions.$mobile-width) {
-    display: block;
-  }
-
   @media only screen and (max-width: dimensions.$tablet-width) {
     grid-template-columns: 1fr 20%;
+  }
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    display: block;
   }
 
   img {
     width: 15rem;
     height: 10rem;
 
-    @media only screen and (max-width: dimensions.$mobile-width) {
-      width: 100%;
-      margin-top: 1rem;
-    }
-
     @media only screen and (max-width: dimensions.$tablet-width) {
       width: 10rem;
       height: 15rem;
+    }
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      width: 100%;
+      margin-top: 1rem;
     }
   }
 

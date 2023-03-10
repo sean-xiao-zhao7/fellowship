@@ -6,12 +6,12 @@
     padding-bottom: 1rem;
     margin: 1rem 6rem;
 
-    @media only screen and (max-width: dimensions.$mobile-width) {
+    @media only screen and (max-width: dimensions.$tablet-width) {
         margin: 1rem;
         padding: 0;
     }
 
-    @media only screen and (max-width: dimensions.$tablet-width) {
+    @media only screen and (max-width: dimensions.$mobile-width) {
         margin: 1rem;
         padding: 0;
     }
