@@ -330,6 +330,10 @@ h2 {
   img {
     height: 10rem;
 
+    @media only screen and (max-width: dimensions.$tablet-width) {
+      height: 7rem;
+    }
+
     &#fca-canada-logo {
       background-color: colors.$primary-dark;
       padding: 0.5rem;

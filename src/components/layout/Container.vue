@@ -40,6 +40,7 @@ export default {
   <footer>
     <p>&#xa9; Fellowship Church Streetsville {{ new Date().getFullYear() }}</p>
     <div id="sponsors">
+      <img src="../../assets/images/fca_canada_logo.png" />
       <img src="../../assets/images/north_american_mission_board.png" />
       <img src="../../assets/images/cnbc.jpg" />
     </div>
