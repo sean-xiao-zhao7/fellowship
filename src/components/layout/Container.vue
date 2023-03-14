@@ -1,11 +1,13 @@
 <script>
+import { Transition } from 'vue'
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
 import { BiFacebook, BiYoutube, HiMail, GiHamburgerMenu } from 'oh-vue-icons/icons'
 addIcons(HiMail, BiFacebook, BiYoutube, GiHamburgerMenu)
 
 export default {
   components: {
-    'v-icon': OhVueIcon
+    'v-icon': OhVueIcon,
+    Transition: Transition
   },
   data() {
     return {
@@ -23,6 +25,7 @@ export default {
   <header>
     <div id="top-header-mobile-hamburger" @click="toggleTopHeaderMobile">
       <v-icon class="icon" name="gi-hamburger-menu" scale="1.5" fill="white" />
+      <span>Fellowship Church Streetsville</span>
     </div>
     <div id="top-header">
       <div></div>
@@ -36,18 +39,26 @@ export default {
       <router-link to="/giving">Support Us</router-link>
       <router-link to="/agm">AGM</router-link>
     </div>
-    <div id="top-header-mobile" v-if="showTopHeaderMobile">
-      <div></div>
-      <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
-        ><v-icon class="icon" name="bi-facebook" scale="1.5" animation="wrench" hover />Facebook</a
-      >
-      <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
-        ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
-      >
-      <router-link to="/contact">Contact Us</router-link>
-      <router-link to="/giving">Support Us</router-link>
-      <router-link to="/agm">AGM</router-link>
-    </div>
+    <Transition>
+      <div id="top-header-mobile" v-if="showTopHeaderMobile">
+        <div></div>
+        <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
+          ><v-icon
+            class="icon"
+            name="bi-facebook"
+            scale="1.5"
+            animation="wrench"
+            hover
+          />Facebook</a
+        >
+        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
+          ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
+        >
+        <router-link to="/contact">Contact Us</router-link>
+        <router-link to="/giving">Support Us</router-link>
+        <router-link to="/agm">AGM</router-link>
+      </div>
+    </Transition>
     <div id="nav-container">
       <nav>
         <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
@@ -58,16 +69,18 @@ export default {
         <router-link to="/contact">Contact</router-link>
       </nav>
     </div>
-    <div id="nav-container-mobile" v-if="showTopHeaderMobile">
-      <nav>
-        <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
-        <router-link to="/planavisit">Plan a visit</router-link>
-        <router-link to="/pastsermons">Past sermons</router-link>
-        <router-link to="/aboutus">About us</router-link>
-        <router-link to="/giving">Giving</router-link>
-        <router-link to="/contact">Contact</router-link>
-      </nav>
-    </div>
+    <Transition>
+      <div id="nav-container-mobile" v-if="showTopHeaderMobile">
+        <nav>
+          <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
+          <router-link to="/planavisit">Plan a visit</router-link>
+          <router-link to="/pastsermons">Past sermons</router-link>
+          <router-link to="/aboutus">About us</router-link>
+          <router-link to="/giving">Giving</router-link>
+          <router-link to="/contact">Contact</router-link>
+        </nav>
+      </div>
+    </Transition>
   </header>
   <main>
     <slot>Page under construction.</slot>
@@ -134,10 +147,23 @@ export default {
   display: none;
   padding: 1rem;
   background: linear-gradient(colors.$primary-light, colors.$primary);
+  color: white;
 
   @media only screen and (max-width: dimensions.$mobile-width) {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+}
+.v-enter-active,
+.v-leave-active {
+  transition: all 0.3s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+  transform: translateY(-20rem);
 }
 
 #nav-container,
