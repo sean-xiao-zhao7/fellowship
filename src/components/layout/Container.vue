@@ -1,16 +1,29 @@
 <script>
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
-import { BiFacebook, BiYoutube, HiMail } from 'oh-vue-icons/icons'
-addIcons(HiMail, BiFacebook, BiYoutube)
+import { BiFacebook, BiYoutube, HiMail, GiHamburgerMenu } from 'oh-vue-icons/icons'
+addIcons(HiMail, BiFacebook, BiYoutube, GiHamburgerMenu)
 
 export default {
   components: {
     'v-icon': OhVueIcon
+  },
+  data() {
+    return {
+      showTopHeaderMobile: false
+    }
+  },
+  methods: {
+    toggleTopHeaderMobile() {
+      this.showTopHeaderMobile = !this.showTopHeaderMobile
+    }
   }
 }
 </script>
 <template>
   <header>
+    <div id="top-header-mobile-hamburger" @click="toggleTopHeaderMobile">
+      <v-icon class="icon" name="gi-hamburger-menu" scale="1.5" fill="white" />
+    </div>
     <div id="top-header">
       <div></div>
       <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
@@ -23,7 +36,29 @@ export default {
       <router-link to="/giving">Support Us</router-link>
       <router-link to="/agm">AGM</router-link>
     </div>
+    <div id="top-header-mobile" v-if="showTopHeaderMobile">
+      <div></div>
+      <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
+        ><v-icon class="icon" name="bi-facebook" scale="1.5" animation="wrench" hover />Facebook</a
+      >
+      <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
+        ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
+      >
+      <router-link to="/contact">Contact Us</router-link>
+      <router-link to="/giving">Support Us</router-link>
+      <router-link to="/agm">AGM</router-link>
+    </div>
     <div id="nav-container">
+      <nav>
+        <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
+        <router-link to="/planavisit">Plan a visit</router-link>
+        <router-link to="/pastsermons">Past sermons</router-link>
+        <router-link to="/aboutus">About us</router-link>
+        <router-link to="/giving">Giving</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </nav>
+    </div>
+    <div id="nav-container-mobile" v-if="showTopHeaderMobile">
       <nav>
         <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
         <router-link to="/planavisit">Plan a visit</router-link>
@@ -52,7 +87,8 @@ export default {
 @use '../../styles/colors.scss';
 @use '../../styles/dimensions.scss';
 
-#top-header {
+#top-header,
+#top-header-mobile {
   padding: 1.2rem 3rem;
   background: linear-gradient(colors.$primary-light, colors.$primary);
   display: grid;
@@ -69,6 +105,10 @@ export default {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+
+    &#top-header {
+      display: none;
+    }
   }
 
   a {
@@ -90,7 +130,18 @@ export default {
   }
 }
 
-#nav-container {
+#top-header-mobile-hamburger {
+  display: none;
+  padding: 1rem;
+  background: linear-gradient(colors.$primary-light, colors.$primary);
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    display: block;
+  }
+}
+
+#nav-container,
+#nav-container-mobile {
   padding: 1rem 8rem;
 
   @media only screen and (max-width: dimensions.$tablet-width) {
@@ -98,6 +149,9 @@ export default {
   }
   @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
+    &#nav-container {
+      display: none;
+    }
   }
 
   img {
