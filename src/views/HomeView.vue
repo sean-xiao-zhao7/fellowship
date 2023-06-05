@@ -31,6 +31,10 @@ export default {
 </script>
 
 <template>
+  <div id="news-container">
+    <img src="../assets/images/fcacamp2023_first.jpg" class="news-container-image" />
+    <img src="../assets/images/fcacamp2023.png" class="news-container-image" />
+  </div>
   <img src="../assets/images/hero_background3.jpg" class="home-intro-image" />
   <section id="hero">
     <h1>Fellowship Church Streetsville</h1>
@@ -247,6 +251,15 @@ section:not(#hero) {
 
   @media only screen and (max-width: dimensions.$mobile-width) {
     margin-bottom: 1rem;
+  }
+}
+
+#news-container {
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    padding-bottom: 2rem;
   }
 }
 
