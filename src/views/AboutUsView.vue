@@ -65,7 +65,7 @@
       <div class="about-paragraphs">
         <h2>David Trenado</h2>
         <h3>Pastor</h3>
-        <img src="../assets/images/aboutus/trenados.jpg" class="portrait" />
+        <img src="../assets/images/aboutus/david1.png" class="portrait" />
         <p>
           David grew up in Arganda del Rey, Madrid in Spain. From the beginning of his life he knew
           that there was something in his inner that needed to be fulfilled. At the age of 12, he
