@@ -61,13 +61,25 @@ export default {
           is presented by Sean to approve it. Seconded by David. Approved.
         </li>
         <li>
-          Financial Statements: Giovanna Andrea Chaves gives the members an overall explanation of
-          the Financial Statements until October 31st, 2023. We have a very basic budget to cover
-          just necessary expenses as Rent, Insurances, Admin and support for some activities like
-          the Summer Camp. This year the main Admin expense was the purchase of a printer. Mike asks
-          about the fluctuation on the rent fess, it is explained that it varies per month as per
-          number of Sundays, or Community Center closures. Davis proposes to approve the Statements
-          as presented. Balfour seconded. Approved.
+          Financial Statements:
+          <ul>
+            <li>
+              Giovanna Andrea Chaves gives the members an overall explanation of the Financial
+              Statements until October 31st, 2023.
+            </li>
+            <li>
+              We have a very basic budget to cover just necessary expenses as Rent, Insurances,
+              Admin and support for some activities like the Summer Camp.
+            </li>
+            <li>This year the main Admin expense was the purchase of a printer.</li>
+            <li>
+              Mike asks about the fluctuation on the rent fess, it is explained that it varies per
+              month as per number of Sundays, or Community Center closures.
+            </li>
+            <li>
+              Davis proposes to approve the Statements as presented. Balfour seconded. Approved.
+            </li>
+          </ul>
         </li>
         <li>
           New business: Activity report. Attached to the minute. Pastor James read it and gives the
