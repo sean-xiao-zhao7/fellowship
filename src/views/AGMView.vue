@@ -12,12 +12,81 @@ export default {
     <h1>Annual General Meeting Minutes</h1>
     <p>Here are the minutes from past annual general meetings. They are sorted by year.</p>
     <select v-model="currentYear">
+      <option value="2023">Year 2023</option>
       <option value="2022">Year 2022</option>
       <option value="2021">Year 2021</option>
       <option value="2020">Year 2020</option>
       <option value="2019">Year 2019</option>
       <option value="2018">Year 2018</option>
     </select>
+    <section class="margin-section" v-if="currentYear === '2023'">
+      <h2>FELLOWSHIP CHURCH GTA DECEMBER 3rd, 2023</h2>
+      <h2>
+        This year our AGM is held online via Zoom and at River Grove community Center. Time 12:17
+        pm.
+      </h2>
+      <h2>Agenda:</h2>
+      <ul class="agenda">
+        <li>Prayer</li>
+        <li>Call to the Meeting</li>
+        <li>Quorum verification</li>
+        <li>Previous AGM Minute reading and approval</li>
+        <li>Financial Statements</li>
+        <li>New business</li>
+        <li>Adjournment</li>
+      </ul>
+      <ol>
+        <li>
+          Pastor James will preside the Meeting as Chair of the Board and call the meeting to order.
+          Balfour presents a motion to start the meeting.
+        </li>
+        <li>Sonja opens the meeting in prayer.</li>
+        <li>
+          Quorum verification. 5 Proxy votes 7 attendees, 3 online. Quorum needed is 14+1. Quorum
+          met.
+          <ul>
+            Attendance:
+            <li>
+              PROXY VOTES: Ivan Amaranto, Sharon Batchelor, Miriam Zimmerman, Denise Tull, Ruth Ann
+              Ursino.
+            </li>
+            <li>
+              REGULAR ATTENDANCE: David Trenado, Marcos Trenado, James and Sonja Baird, Balfour
+              Batchelor, Sean Xiao, Karen Bijai, Michael Ramsey, Giovanna Andrea Chaves.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Reading of the minutes on the last AGM by Giovanna Andrea Chaves. No questions, A motion
+          is presented by Sean to approve it. Seconded by David. Approved.
+        </li>
+        <li>
+          Financial Statements: Giovanna Andrea Chaves gives the members an overall explanation of
+          the Financial Statements until October 31st, 2023. We have a very basic budget to cover
+          just necessary expenses as Rent, Insurances, Admin and support for some activities like
+          the Summer Camp. This year the main Admin expense was the purchase of a printer. Mike asks
+          about the fluctuation on the rent fess, it is explained that it varies per month as per
+          number of Sundays, or Community Center closures. Davis proposes to approve the Statements
+          as presented. Balfour seconded. Approved.
+        </li>
+        <li>
+          New business: Activity report. Attached to the minute. Pastor James read it and gives the
+          ministry Coordinator time to address the church the main activities in 2023.
+        </li>
+        <li>
+          Pastor James makes a special mention to Charles Donaldson who has taken the Accounting
+          Task of Fellowship Church without charging the church fees for his services.
+        </li>
+        <li>
+          2024 Activities, we continue to have our regular activities, but we’ll make time to plan
+          additional for 2024.
+        </li>
+        <li>
+          Adjournment. A motion is presented by David to finish the meeting at 12:55 pm. Seconded by
+          Balfour. Approved.
+        </li>
+      </ol>
+    </section>
     <section class="margin-section" v-if="currentYear === '2022'">
       <h2>Fellowship Church Streetsville AGM 2022</h2>
       <h2>Agenda:</h2>
