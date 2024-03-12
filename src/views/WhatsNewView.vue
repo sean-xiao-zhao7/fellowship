@@ -60,7 +60,12 @@ export default {
         <p>Age range: 5 to 14.</p>
       </div>
     </div>
+    <a href="https://fcacanada.goalline.ca/register.php?reg_form_id=43447">Sign up today</a>
     <div class="divider"></div>
+    <img
+      src="../assets/images/whatsnew/2024_ignition_camp_poster.webp"
+      alt="ignite summer camp poster"
+    />
   </div>
 </template>
 
