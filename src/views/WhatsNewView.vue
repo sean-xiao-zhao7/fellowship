@@ -1,7 +1,7 @@
 <script>
 import { addIcons, OhVueIcon } from 'oh-vue-icons'
-import { BiClockFill, HiSolidLocationMarker, RiComputerLine } from 'oh-vue-icons/icons'
-addIcons(BiClockFill, HiSolidLocationMarker, RiComputerLine)
+import { BiCalendar, HiSolidLocationMarker, BiPersonCircle } from 'oh-vue-icons/icons'
+addIcons(BiCalendar, HiSolidLocationMarker, BiPersonCircle)
 
 export default {
   components: {
@@ -13,31 +13,51 @@ export default {
 <template>
   <div id="view-container">
     <h1>What's new @ Fellowship Church</h1>
-    <div id="view-intro">
-      <div>
-        <p>Fellowship Church Streetsville welcomes you!</p>
-        <p>
-          Whatever background or situation, come as you are as Jesus said. Let's fellowship
-          together, get to know one another and build one another up in Christ.
-        </p>
-        <p>Check <b>Plan a Visit</b> at top to see how you can reach us.</p>
-        <p>Here is what's going on at Fellowship Church lately:</p>
-      </div>
-      <img src="../assets/images/planavisit/roomview1.jpg" />
+    <div>
+      <p>
+        Fellowship Church Streetsville welcomes you! Here is what's going on at Fellowship Church
+        lately.
+      </p>
     </div>
     <div class="divider"></div>
+    <div>
+      <h2>2024 Summer: <br />IGNITION SUMMER CAMP</h2>
+      <p>
+        Ignition Camps are where Student Athletes will be able to engage in multiple sports like
+        basketball, soccer, frisbee, and European Handball. If your student athlete can't decide
+        what sport they want to try or they want a little of everything, this camp is for you!
+      </p>
+    </div>
     <div class="icon-row">
       <v-icon
         class="icon"
-        name="bi-clock-fill"
+        name="hi-solid-location-marker"
         scale="2.5"
         fill="#4486bf"
         animation="wrench"
         hover
       />
       <div>
-        <p>Sunday service starts at around 11 AM every week. Both in person and online.</p>
-        <p>People usually arrive/join online 15 mins before to chat about their week.</p>
+        <p>Century City 933 Focal Rd, Mississauga, ON</p>
+      </div>
+    </div>
+    <div class="icon-row">
+      <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
+      <div>
+        <p>July 8th to 12th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
+      </div>
+    </div>
+    <div class="icon-row">
+      <v-icon
+        class="icon"
+        name="bi-person-circle"
+        scale="2.5"
+        fill="#4486bf"
+        animation="wrench"
+        hover
+      />
+      <div>
+        <p>Age range: 5 to 14.</p>
       </div>
     </div>
     <div class="divider"></div>
