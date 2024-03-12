@@ -62,6 +62,7 @@ export default {
     <div id="nav-container">
       <nav>
         <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
+        <router-link to="/whatsnew">What's new</router-link>
         <router-link to="/planavisit">Plan a visit</router-link>
         <router-link to="/pastsermons">Past sermons</router-link>
         <router-link to="/aboutus">About us</router-link>
@@ -105,7 +106,7 @@ export default {
   padding: 1.2rem 3rem;
   background: linear-gradient(colors.$primary-light, colors.$primary);
   display: grid;
-  grid-template-columns: 45% repeat(5, 1fr);
+  grid-template-columns: 45% repeat(6, 1fr);
   grid-column-gap: 1rem;
   place-items: center;
   color: white;
@@ -188,7 +189,7 @@ export default {
     height: 8rem;
     font-family: font.$crimson;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     place-items: center;
 
     @media only screen and (max-width: dimensions.$tablet-width) {

@@ -7,6 +7,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutUsView from '../views/AboutUsView.vue'
 import PastSermonsView from '../views/PastSermonsView.vue'
 import PlanAVisitView from '../views/PlanAVisitView.vue'
+import WhatsNewView from '../views/WhatsNewView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,19 +18,14 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: ContactView
+      path: '/planavisit',
+      name: 'planavisit',
+      component: PlanAVisitView
     },
     {
-      path: '/giving',
-      name: 'giving',
-      component: GivingView
-    },
-    {
-      path: '/aboutus',
-      name: 'aboutus',
-      component: AboutUsView
+      path: '/whatsnew',
+      name: 'whatsnew',
+      component: WhatsNewView
     },
     {
       path: '/pastsermons',
@@ -37,9 +33,19 @@ const router = createRouter({
       component: PastSermonsView
     },
     {
-      path: '/planavisit',
-      name: 'planavisit',
-      component: PlanAVisitView
+      path: '/aboutus',
+      name: 'aboutus',
+      component: AboutUsView
+    },
+    {
+      path: '/giving',
+      name: 'giving',
+      component: GivingView
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactView
     },
     {
       path: '/agm',

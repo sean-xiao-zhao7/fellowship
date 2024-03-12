@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div id="view-container">
-    <h1>What's New at Fellowship Church</h1>
+    <h1>What's new @ Fellowship Church</h1>
     <div id="view-intro">
       <div>
         <p>Fellowship Church Streetsville welcomes you!</p>
