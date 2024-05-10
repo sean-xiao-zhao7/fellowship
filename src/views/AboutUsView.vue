@@ -86,13 +86,11 @@
         <p>
           David is responsible for helping the congregation bring people to Christ, develop
           disciples and live lives of compassion, mercy, and justice. He preaches, teaches, works
-          with leaders and tries to meet with people as much as possible. David is married to Miriam
-          and they have 2 children, Marcos and Sofia. Marcos loves basketball & Sofia loves arts and
+          with leaders and tries to meet with people as much as possible. David has 2 children, Marcos and Sofia. Marcos loves basketball & Sofia loves arts and
           crafts.
         </p>
         <p>
-          David is also serving in the ministry Upward Sports Canada as an Operations & Training
-          Director, trying to connect the community with the local church through sports and the
+          David is also serving as the National Director of Sport for FCA Canada, trying to connect the community with the local church through sports and the
           gospel. He is a basketball coach and you will find him practicing and teaching basketball
           very often.
         </p>
