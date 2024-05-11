@@ -13,7 +13,7 @@
           friendship and love. We believe our greatest calling is to develop a deep and meaningful
           relationship with God and to understand Him in His fullness.
         </p>
-        <img src="../assets/images/aboutus/thursdaybiblestudy.jpg" />
+        <img src="../assets/images/aboutus/sunday_service_zoom.jpg" />
         <p>
           We are an open and honest church. We encourage questions. Curious on what to wear? Wear
           whatever you are comfortable in. We are more interested in you rather than what you wear.
