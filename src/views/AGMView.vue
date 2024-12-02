@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      currentYear: `${new Date().getFullYear() - 1}`
+      currentYear: `${new Date().getFullYear()}`
     }
   }
 }
@@ -12,6 +12,7 @@ export default {
     <h1>Annual General Meeting Minutes</h1>
     <p>Here are the minutes from past annual general meetings. They are sorted by year.</p>
     <select v-model="currentYear">
+      <option value="2024">Year 2024</option>
       <option value="2023">Year 2023</option>
       <option value="2022">Year 2022</option>
       <option value="2021">Year 2021</option>
@@ -19,6 +20,101 @@ export default {
       <option value="2019">Year 2019</option>
       <option value="2018">Year 2018</option>
     </select>
+    <section class="margin-section" v-if="currentYear === '2024'">
+      <h2>FELLOWSHIP CHURCH GTA NOVEMBER 17TH, 2024</h2>
+      <h2>
+        Our AGM is held online via Zoom and at River Grove Community Center. Starting Time 12:09 pm.
+      </h2>
+      <h2>Agenda:</h2>
+      <ul class="agenda">
+        <li>Call to the Meeting</li>
+        <li>Prayer</li>
+        <li>Quorum verification</li>
+        <li>Previous AGM Minute reading and approval</li>
+        <li>Financial Statements and Budget 2025</li>
+        <li>New business</li>
+        <li>Adjournment</li>
+      </ul>
+      <ol>
+        <li>
+          Pastor James will preside the Meeting as Chair of the Board and call the meeting to order.
+          Sonja presents a motion to start the meeting.
+        </li>
+        <li>David starts the meeting with a prayer.</li>
+        <li>
+          Quorum verification. 5 Proxy votes 10 attendees, 1 online. Quorum needed is 14+1. We have
+          quorum to go ahead with the meeting as planned.
+          <ul>
+            Attendance:
+            <li>
+              PROXY VOTES: Sharon Batchelor, David Gilpin, Joe Binford, Susan Binford, Liam Ramsey
+            </li>
+            <li>
+              REGULAR ATTENDANCE: David Trenado, James and Sonja Baird, Balfour Batchelor, Sean
+              Xiao, Karen Bijai, Ruth Ann Ursino, Yvonne Hodge, Michael Ramsey, Giovanna Andrea
+              Chaves.
+            </li>
+            <li>ONLINE ATTENDANCE: MarcosTrenado</li>
+          </ul>
+        </li>
+        <li>
+          The minute of the previous AGM was read by Giovanna Andrea Chaves. No questions, A motion
+          is presented by Sonja to approve it. Seconded by Balfour and Yvonne. Approved.
+        </li>
+        <li>
+          Financial Statements:
+          <ul>
+            <li>
+              Giovanna Andrea Chaves presents the Financial Statements until October 31st, 2024.
+              Very similar as the past year, we are just covering basic expenses like rental of
+              facilities, insurance and meeting and administrative expenses. Balfour as a question
+              regarding subscriptions and the expense of the PO Box. It is explained, this expense
+              was processed in November and it will show on the December 2024 reports. Pastor James
+              brings to the assembly the request of a new laptop for the church's secretary, and
+              asks if we can buy one. In order to be able to perform the duties of the assigned work
+              she is in need of one. Balfour commits to take care of this since he can get good
+              price through his company, and this will include one for Ruth Ann as well. We continue
+              explaining the church’s finances. We will continue to renew the rental contracts with
+              the city, since we want and need to keep the place. Sean presents a motion to receive
+              the financial reports, seconded by Yvonne, Mike and Balfour. Accepted.
+            </li>
+            <li>
+              Budget: The 2025 Budget is presented to the church for consideration. Additions,
+              David’s salary, even if he is tithing back, should show. As well as there is
+              correction of the total amounts of Activities expenses from $1100 to $1200. The
+              corrections will be made and added to the final 2025 Budget and presented accordingly.
+              A motion is presented to accept the budget with the noted corrections and
+              considerations, by Yvonne. Seconded by David. Approved.
+            </li>
+          </ul>
+        </li>
+        <li>
+          ELECTION OF BOARD OF DIRECTORS: Secretary Giovanna Andrea Chaves reports to the church
+          that we are in need of one more director since the place that brother Tom Abbott holds,
+          should be covered. Tom Abbott as of now is an inactive member until we receive news of
+          him. Pastor James explains that since we need to consider all positions of the Board being
+          an election year, we will proceed with these two next steps: One, the church can elect for
+          another period the Board if the member accept to continue plus adding the new director, or
+          Two, elect a new Board. Yvonne presents a motion to confirm the current Board for another
+          period and add one director. Seconded by Sean, Sonja and Karen. Current Active members go
+          for another two year period until end of 2026. Approved by all. New Director: Our member
+          Yvonne volunteer to be a Director for the Board. Motion presented by Sonja, seconded by
+          Karen. All voted in favor of Yvonne Hodge as new Director for the Board. Our brother
+          Balfour, reminds us the bylaws and community standards of the Board composition having to
+          meet the criteria of at least three members residing in the City of Mississauga. Criteria
+          met.
+        </li>
+        <li>
+          New business: Pastor David brings to the church the need of planning for our 10th
+          anniversary next February 2025. Will be in charge of talking to the city and get the place
+          for a date in February on Saturday. David Balfour seconded it, all approved it.
+        </li>
+        <li>
+          A motion is presented by David to adjourn the meeting at 1:01 pm. Seconded by Sonja.
+          Approved.
+        </li>
+      </ol>
+    </section>
     <section class="margin-section" v-if="currentYear === '2023'">
       <h2>FELLOWSHIP CHURCH GTA DECEMBER 3rd, 2023</h2>
       <h2>
