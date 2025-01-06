@@ -41,7 +41,7 @@ export default {
       we'd love to see you some day.
     </p>
   </section>
-  <div class="divider"></div>
+  <!-- <div class="divider"></div>
   <section id="news">
     <div>
       <h2>2024 Summer - IGNITION SUMMER CAMP</h2>
@@ -89,7 +89,7 @@ export default {
     src="../assets/images/whatsnew/2024_ignition_camp_poster.webp"
     alt="ignite summer camp poster"
     class="full-width-image"
-  />
+  /> -->
   <div class="divider"></div>
   <img src="../assets/images/hero_background.jpg" class="float-right" />
   <section>
