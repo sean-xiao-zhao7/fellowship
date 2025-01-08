@@ -41,17 +41,17 @@ export default {
       we'd love to see you some day.
     </p>
   </section>
-  <!-- <div class="divider"></div>
+  <div class="divider"></div>
   <section id="news">
     <div>
-      <h2>2024 Summer - IGNITION SUMMER CAMP</h2>
+      <h2>10th Anniversary Celebration</h2>
+      <p>Celebrate with us with a dinner on Saturday Feb. 22nd, 2025.</p>
       <p>
-        Ignition Camps are where Student Athletes will be able to engage in multiple sports like
-        basketball, soccer, frisbee, and European Handball. If your student athlete can't decide
-        what sport they want to try or they want a little of everything, this camp is for you!
+        Everyone is invited! We will watch a small documentary about the history of the church. Also
+        we will have guest speakers and testimonies about God's work in the past 10 years.
       </p>
     </div>
-    <div class="home-section-icon-row">
+    <!-- <div class="home-section-icon-row">
       <v-icon
         class="icon"
         name="hi-solid-location-marker"
@@ -63,14 +63,14 @@ export default {
       <div>
         <p>Century City 933 Focal Rd, Mississauga, ON</p>
       </div>
-    </div>
-    <div class="home-section-icon-row">
+    </div> -->
+    <!-- <div class="home-section-icon-row">
       <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>July 8th to 12th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
       </div>
-    </div>
-    <div class="home-section-icon-row">
+    </div> -->
+    <!-- <div class="home-section-icon-row">
       <v-icon
         class="icon"
         name="bi-person-circle"
@@ -83,13 +83,13 @@ export default {
         <p>Age range: 5 to 14.</p>
       </div>
     </div>
-    <a href="https://fcacanada.goalline.ca/register.php?reg_form_id=43447">Sign up today</a>
+    <a href="https://fcacanada.goalline.ca/register.php?reg_form_id=43447">Sign up today</a> -->
   </section>
   <img
-    src="../assets/images/whatsnew/2024_ignition_camp_poster.webp"
-    alt="ignite summer camp poster"
+    src="../assets/images/events/10th_anniversary.jpg"
+    alt="10th anniversary poster"
     class="full-width-image"
-  /> -->
+  />
   <div class="divider"></div>
   <img src="../assets/images/hero_background.jpg" class="float-right" />
   <section>
