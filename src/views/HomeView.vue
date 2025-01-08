@@ -85,11 +85,13 @@ export default {
     </div>
     <a href="https://fcacanada.goalline.ca/register.php?reg_form_id=43447">Sign up today</a> -->
   </section>
-  <img
-    src="../assets/images/events/10th_anniversary.jpg"
-    alt="10th anniversary poster"
-    class="full-width-image"
-  />
+  <div class="half-width-image-container">
+    <img
+      src="../assets/images/events/10th_anniversary.jpg"
+      alt="10th anniversary poster"
+      class="half-width-image"
+    />
+  </div>
   <div class="divider"></div>
   <img src="../assets/images/hero_background.jpg" class="float-right" />
   <section>
@@ -250,10 +252,6 @@ export default {
 @use '../styles/font.scss';
 @use '../styles/colors.scss';
 @use '../styles/dimensions.scss';
-
-.full-width-image {
-  width: 100%;
-}
 
 section {
   margin-top: 1rem;
