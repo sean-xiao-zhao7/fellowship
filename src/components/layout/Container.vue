@@ -223,7 +223,7 @@ export default {
 main {
   padding: 2rem 5rem;
   margin: 0rem 5rem;
-  background-color: whitesmoke;
+  background-color: #fbfbfb;
   border-radius: 5px;
   overflow: hidden;
 
