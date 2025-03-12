@@ -28,6 +28,14 @@ export default {
         Canada, Fellowship Church, and other partners will work together again to be a light in the
         community.
       </p>
+      <div class="flex-center-section">
+        <p>
+          <a href="https://app.teamlinkt.com/register/go/fcacanada/98153">Sign up today</a>
+        </p>
+        <p>
+          <a href="https://canadafca.ca/fcasports">More info on FCA website</a>
+        </p>
+      </div>
       <div class="icon-row">
         <v-icon
           class="icon"
@@ -66,14 +74,6 @@ export default {
         <div>
           <p>Age range: 5 to 14.</p>
         </div>
-      </div>
-      <div class="flex-center-section">
-        <p>
-          <a href="https://app.teamlinkt.com/register/go/fcacanada/98153">Sign up today</a>
-        </p>
-        <p>
-          <a href="https://canadafca.ca/fcasports">More info on FCA website</a>
-        </p>
       </div>
 
       <div class="half-width-image-container">
