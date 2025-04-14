@@ -43,6 +43,23 @@ export default {
   </section>
   <div class="divider"></div>
   <section id="news">
+    <section>
+      <h2>Easter Sunday Breakfast & Service</h2>
+      <p>
+        Next Sunday April 20th is Easter Sunday, we will have an Easter message plus Coffee +
+        Breakfast at 10:15AM. Everyone is welcome to join this remembrance and fellowship Sunday
+        service.
+      </p>
+      <br />
+      <div class="half-width-image-container">
+        <img
+          src="../assets/images/whatsnew/2025_easter.jpg"
+          alt="Easter event poster"
+          class="half-width-image"
+        />
+      </div>
+    </section>
+    <div class="divider"></div>
     <div>
       <h2>Multi-sport Summer Camp</h2>
       <p>
