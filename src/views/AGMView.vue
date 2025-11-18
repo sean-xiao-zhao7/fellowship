@@ -12,6 +12,7 @@ export default {
     <h1>Annual General Meeting Minutes</h1>
     <p>Here are the minutes from past annual general meetings. They are sorted by year.</p>
     <select v-model="currentYear">
+      <option value="2025">Year 2025</option>
       <option value="2024">Year 2024</option>
       <option value="2023">Year 2023</option>
       <option value="2022">Year 2022</option>
@@ -20,6 +21,78 @@ export default {
       <option value="2019">Year 2019</option>
       <option value="2018">Year 2018</option>
     </select>
+    <section class="margin-section" v-if="currentYear === '2025'">
+      <h2>FELLOWSHIP CHURCH GTA NOVEMBER 16TH, 2025</h2>
+      <h2>
+        Our AGM is held online via Zoom and at River Grove Community Center. Starting Time 12:07 pm.
+      </h2>
+      <h2>Agenda:</h2>
+      <ul class="agenda">
+        <li>Call to the Meeting</li>
+        <li>Prayer</li>
+        <li>Quorum verification</li>
+        <li>Previous AGM Minute reading and approval</li>
+        <li>Financial Statements and Budget 2025</li>
+        <li>New business</li>
+        <li>Adjournment</li>
+      </ul>
+      <ol>
+        <li>
+          Pastor James will preside the Meeting as Chair of the Board and call the meeting to order.
+          Balfour presents a motion to start the meeting.
+        </li>
+        <li>David starts the meeting with a prayer.</li>
+        <li>
+          Quorum verification. 6 Proxy votes 10 attendees, 0 online. Quorum needed is 14+1. We have
+          quorum to go ahead with the meeting as planned.
+          <ul>
+            Attendance:
+            <li>
+              PROXY VOTES: Sharon Batchelor, David Gilpin, Joe Binford, Susan Binford, Liam Ramsey,
+              Josue Amaranto
+            </li>
+            <li>
+              REGULAR ATTENDANCE: David Trenado, James and Sonja Baird, Balfour Batchelor, Sean
+              Xiao, Karen Bijai, Ruth Ann Ursino, Yvonne Hodge, Michael Ramsey, Giovanna Andrea
+              Chaves, Marcos Trenado.
+            </li>
+          </ul>
+        </li>
+        <li>
+          The minute of the previous AGM was read by Giovanna Andrea Chaves. No questions, A motion
+          is presented by Balfour to approve it. Seconded by Sonja. Approved.
+        </li>
+        <li>
+          Financial Statements:
+          <ul>
+            <li>
+              Giovanna Andrea Chaves presents the Financial Statements until October 31st, 2025. For
+              a third we are operating with basic budget and we have been able to cover our main
+              expenses. Pastor James presents a motion to consider within the budget an annual
+              increase of 10% for David. Seconded by Balfour and Sean. Approved. No more questions o
+              discussion. David presents a motion to receive the financial reports, seconded by
+              Yvonne. Accepted.
+            </li>
+            <li>
+              Budget: The 2025 Budget is presented to the church for consideration. No additional
+              considerations or questions. Motion to approve it by Sean. Seconded by Balfour.
+              Approved.
+            </li>
+          </ul>
+        </li>
+        <li>
+          New business: Pastor Jamey brings to the church the initiative of having monthly meetings
+          with specific subjects to attract different audiences. The church in general agrees we can
+          make more use of the rental facilities and have different activities. The Pastoral Team
+          will work on a schedule and bring it to the church. Motion by Karen, seconded by Sonja.
+          Approved.
+        </li>
+        <li>
+          A motion is presented by Balfour to adjourn the meeting at 12:41 pm. Seconded by Sonja.
+          Approved. Meeting ended.
+        </li>
+      </ol>
+    </section>
     <section class="margin-section" v-if="currentYear === '2024'">
       <h2>FELLOWSHIP CHURCH GTA NOVEMBER 17TH, 2024</h2>
       <h2>
@@ -54,7 +127,7 @@ export default {
               Xiao, Karen Bijai, Ruth Ann Ursino, Yvonne Hodge, Michael Ramsey, Giovanna Andrea
               Chaves.
             </li>
-            <li>ONLINE ATTENDANCE: MarcosTrenado</li>
+            <li>ONLINE ATTENDANCE: Marcos Trenado</li>
           </ul>
         </li>
         <li>
