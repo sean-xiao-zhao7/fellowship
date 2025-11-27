@@ -21,22 +21,18 @@ export default {
     </div>
     <div class="divider"></div>
     <section>
-      <h2>Easter Sunday Breakfast & Service</h2>
-      <p>
-        Next Sunday April 20th is Easter Sunday, we will have an Easter message plus Coffee +
-        Breakfast at 10:15AM. Everyone is welcome to join this remembrance and fellowship Sunday
-        service.
-      </p>
-      <br />
+      <h2>Christmas Series 2025</h2>
+      <h2>LIGHT HAS COME</h2>
       <div class="half-width-image-container">
         <img
-          src="../assets/images/whatsnew/2025_easter.jpg"
+          src="../assets/images/events/christmas_2025.png"
           alt="Easter event poster"
           class="half-width-image"
         />
       </div>
     </section>
     <div class="divider"></div>
+    <h1>Past events</h1>
     <section>
       <h2>Multi-sport Summer Camp</h2>
       <p>
@@ -102,7 +98,6 @@ export default {
       </div>
     </section>
     <div class="divider"></div>
-    <h1>Past events</h1>
     <section>
       <div>
         <h2>10th Anniversary Celebration</h2>
