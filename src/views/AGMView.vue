@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      currentYear: `${new Date().getFullYear() - 1}`
+      currentYear: '2025' //`${new Date().getFullYear() - 1}`
     }
   }
 }
