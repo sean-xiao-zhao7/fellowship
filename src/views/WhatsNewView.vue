@@ -21,6 +21,19 @@ export default {
     </div>
     <div class="divider"></div>
     <section>
+      <h2>Soul Care Workshop Series</h2>
+      <h2>First session: Feb. 22nd - Loneliness</h2>
+      <div class="half-width-image-container">
+        <img
+          src="../assets/images/events/counseling.jpg"
+          alt="Soul Care Workshop Series"
+          class="half-width-image"
+        />
+      </div>
+    </section>
+    <div class="divider"></div>
+    <h1>Past events</h1>
+    <section>
       <h2>Christmas Series 2025</h2>
       <h2>LIGHT HAS COME</h2>
       <div class="half-width-image-container">
@@ -32,7 +45,6 @@ export default {
       </div>
     </section>
     <div class="divider"></div>
-    <h1>Past events</h1>
     <section>
       <h2>Multi-sport Summer Camp</h2>
       <p>

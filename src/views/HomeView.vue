@@ -49,12 +49,12 @@ export default {
   <div class="divider"></div>
   <section id="news">
     <section>
-      <h2>Christmas Series 2025</h2>
-      <h2>LIGHT HAS COME</h2>
+      <h2>Soul Care Workshop Series</h2>
+      <h2>First session: Feb. 22nd - Loneliness</h2>
       <div class="half-width-image-container">
         <img
-          src="../assets/images/events/christmas_2025.png"
-          alt="Easter event poster"
+          src="../assets/images/events/counseling.jpg"
+          alt="Soul Care Workshop Series"
           class="half-width-image"
         />
       </div>
