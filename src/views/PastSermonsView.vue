@@ -5,10 +5,18 @@
       All sermons are on our
       <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221/videos" target="_blank"
         >YouTube channel</a
-      >. <br />Below is the current series - The Law, The Covenant and The Spirit.
+      >.
     </p>
 
     <div class="sermons-container">
+      <h2>Counselling Workshop #1: Loneliness</h2>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/4B1PzoE-Ix8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
       <h2>Legalism vs Antinomianism vs Epignosis in Christianity</h2>
       <iframe
         src="https://www.youtube-nocookie.com/embed/OX2gWbu-WUA"

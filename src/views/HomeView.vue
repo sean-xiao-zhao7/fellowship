@@ -49,11 +49,21 @@ export default {
   <div class="divider"></div>
   <section id="news">
     <section>
-      <h2>Soul Care Workshop Series</h2>
-      <h2>First session: Feb. 22nd - Loneliness</h2>
+      <h2>Soul Care Workshop #2: Anxiety</h2>
+      <p>
+      Join our 2nd healing and counselling workshop on Sunday March 29th! 
+      Topic: Anxiety
+      </p><p>
+We’ll talk openly about what anxiety is & how it affects us at all levels. 
+</p><p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p><p>
+Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support someone you love, this workshop is for you.
+We'll have breakfast together before workshop, as always at 11AM. </p><p>
+</p><p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons page.
+</p>
+<br />
       <div class="half-width-image-container">
         <img
-          src="../assets/images/events/counseling.jpg"
+          src="../assets/images/events/counselling.png"
           alt="Soul Care Workshop Series"
           class="half-width-image"
         />
