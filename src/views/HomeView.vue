@@ -39,34 +39,82 @@ export default {
   <img src="../assets/images/hero_background3.jpg" class="home-intro-image" />
   <section id="hero">
     <h1>Fellowship Church Streetsville</h1>
-    <h1>Serving Mississauga, the GTA and southern Ontario</h1>
+    <h2>Serving Mississauga, the GTA and southern Ontario</h2>
     <p>
-      Practical truth for everyday life. We are a church with a focus on practical teaching from the
+      Practical truth for everyday life.
+    </p>
+    <p>
+      We are a church with a focus on practical teaching from the
       Bible and applying it to our lives in a friendly family like atmosphere. Everyone is welcome,
       we'd love to see you some day.
     </p>
   </section>
   <div class="divider"></div>
   <section id="news">
+    <h2>SoulCare workshop 2 - Anxiety</h2>
     <section>
-      <h2>Soul Care Workshop #2: Anxiety</h2>
       <p>
-      Join our 2nd healing and counselling workshop on Sunday March 29th! 
-      Topic: Anxiety
-      </p><p>
-We’ll talk openly about what anxiety is & how it affects us at all levels. 
-</p><p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p><p>
-Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support someone you love, this workshop is for you.
-We'll have breakfast together before workshop, as always at 11AM. </p><p>
-</p><p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons page.
-</p>
-<br />
+        Join our 2nd healing and counselling workshop on Sunday March 29th!
+      </p>
+      <p>
+        Topic: Anxiety
+      </p>
+      <br />
+      <p>
+        We’ll talk openly about what anxiety is & how it affects us at all levels.
+      </p>
+      <p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p>
+      <p>
+        Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support
+        someone you love, this workshop is for you.
+        We'll have breakfast together before workshop, as always at 11AM. </p>
+      <p>
+      </p>
+      <p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons
+        page.
+      </p>
+    </section>
+    <div class="half-width-image-container">
+      <img src="../assets/images/events/counselling.png" alt="Soul Care Workshop Series" class="half-width-image" />
+    </div>
+    <div class="divider"></div>
+    <section>
+      <h2>Multi-sport Summer Camp</h2>
+      <p>
+        Our annual sports camp for kids and family is back again in July. For one week, engage kids
+        in active group program that foster friendship, leadership, character and other skills. FCA
+        Canada, Fellowship Church, and other partners will work together again to be a light in the
+        community.
+      </p>
+      <div class="flex-center-section">
+        <p>
+          <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951">Sign up today</a>
+        </p>
+        <p>
+          <a href="https://canadafca.ca/fcasports">More info on FCA website</a>
+        </p>
+      </div>
+      <div class="icon-row">
+        <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
+        <div>
+          <p>Century City 933 Focal Rd, Mississauga, ON</p>
+        </div>
+      </div>
+      <div class="icon-row">
+        <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
+        <div>
+          <p>July 13th to 17th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
+        </div>
+      </div>
+      <div class="icon-row">
+        <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
+        <div>
+          <p>Age range: 5 to 14.</p>
+        </div>
+      </div>
+
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/events/counselling.png"
-          alt="Soul Care Workshop Series"
-          class="half-width-image"
-        />
+        <img src="../assets/images/fca/2026_summer_camp.png" alt="2026 Summer camp" class="half-width-image" />
       </div>
     </section>
   </section>
@@ -75,27 +123,13 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
   <section>
     <h2>Visit us - everyone welcome!</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="bi-clock-fill"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="bi-clock-fill" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>Every Sunday 11AM - In person and on Zoom</p>
       </div>
     </div>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="hi-solid-location-marker"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>River Grove Community Center - Bristol & Creditview.</p>
         <p>5800 River Grove Ave. Mississauga, Ontario.</p>
@@ -106,14 +140,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
   <section>
     <h2>Fun activities for kids!</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="la-user-friends-solid"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="la-user-friends-solid" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>
           Fun for family and kids, preschool and nursery provided children’s program during service
@@ -136,32 +163,21 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
     <div class="home-section-icon-row">
       <v-icon class="icon" name="bi-youtube" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
-        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
-          >Listen to sermons on YouTube</a
-        >
+        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank">Listen to sermons on
+          YouTube</a>
       </p>
     </div>
   </section>
   <div class="divider"></div>
   <section class="flex-center-section">
     <div class="logo-row">
-      <a href="https://www.canadafca.ca/about#1388821689" target="_blank"
-        ><img src="../assets/images/fca_canada_logo.png" id="fca-canada-logo"
-      /></a>
-      <a href="https://my.fca.org/davidtrenado" target="_blank"
-        ><img src="../assets/images/fca_logo_small.png"
-      /></a>
+      <a href="https://www.canadafca.ca/about#1388821689" target="_blank"><img
+          src="../assets/images/fca_canada_logo.png" id="fca-canada-logo" /></a>
+      <a href="https://my.fca.org/davidtrenado" target="_blank"><img src="../assets/images/fca_logo_small.png" /></a>
     </div>
     <h2>Fellowship of Christian Athletes Canada (FCA Canada)</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="fc-sports-mode"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="fc-sports-mode" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>
           FCA is an interdenominational Christian sports ministry impacting the world for Jesus
@@ -186,14 +202,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
   <section>
     <h2>Thursday Night Bible Study</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="gi-book-cover"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="gi-book-cover" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>Every Thursday at 8PM on Zoom. See WhatsApp for link.</p>
         <p>Current study: the Book of Acts.</p>
@@ -210,14 +219,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
   <section>
     <h2>Community events</h2>
     <div class="home-section-icon-row">
-      <v-icon
-        class="icon"
-        name="fa-canadian-maple-leaf"
-        scale="2.5"
-        fill="#4486bf"
-        animation="wrench"
-        hover
-      />
+      <v-icon class="icon" name="fa-canadian-maple-leaf" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <p>
         We run community events such as Easter egg hunt and Friday night boardgame event at Dicey
         Business.
@@ -863,8 +865,6 @@ section {
   margin-top: 1rem;
 
   &#news {
-    margin: 0 5rem;
-
     a {
       text-align: center;
     }
@@ -898,7 +898,7 @@ section {
     }
   }
 
-  & > img {
+  &>img {
     max-height: 10rem;
     width: auto;
   }
@@ -917,6 +917,8 @@ section:not(#hero) {
 }
 
 #hero {
+  margin-top: 2rem;
+
   h1 {
     text-align: center;
     color: colors.$primary-dark;
@@ -930,9 +932,13 @@ section:not(#hero) {
     }
   }
 
+  h2 {
+    margin-bottom: 2rem;
+  }
+
   p {
     padding-bottom: 1rem;
-    margin: 2rem 7rem;
+    margin: 0rem 7rem;
 
     @media only screen and (max-width: dimensions.$tablet-width) {
       margin: 2rem 3rem;
@@ -958,6 +964,7 @@ img.float-left {
   &.float-right {
     float: right;
     margin-left: 2rem;
+
     @media only screen and (max-width: dimensions.$mobile-width) {
       display: none;
     }
@@ -966,6 +973,7 @@ img.float-left {
   &.float-left {
     float: left;
     margin-right: 2rem;
+
     @media only screen and (max-width: dimensions.$mobile-width) {
       display: none;
     }
@@ -1009,7 +1017,6 @@ h2 {
 }
 
 // AGM styles
-
 #agm {
   clear: both;
   margin-top: 12rem;

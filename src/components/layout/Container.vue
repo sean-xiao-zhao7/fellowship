@@ -29,34 +29,24 @@ export default {
     </div>
     <div id="top-header">
       <div></div>
-      <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
-        ><v-icon class="icon" name="bi-facebook" scale="1.5" animation="wrench" hover />Facebook</a
-      >
-      <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
-        ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
-      >
+      <a href="https://www.facebook.com/FellowshipGTA" target="_blank"><v-icon class="icon" name="bi-facebook"
+          scale="1.5" animation="wrench" hover />Facebook</a>
+      <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"><v-icon class="icon"
+          name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a>
       <router-link to="/contact">Contact Us</router-link>
       <router-link to="/giving">Support Us</router-link>
-      <router-link to="/agm">AGM</router-link>
+      <router-link to="/agm">A.G.M.</router-link>
     </div>
     <Transition>
       <div id="top-header-mobile" v-if="showTopHeaderMobile">
         <div></div>
-        <a href="https://www.facebook.com/FellowshipGTA" target="_blank"
-          ><v-icon
-            class="icon"
-            name="bi-facebook"
-            scale="1.5"
-            animation="wrench"
-            hover
-          />Facebook</a
-        >
-        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"
-          ><v-icon class="icon" name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a
-        >
+        <a href="https://www.facebook.com/FellowshipGTA" target="_blank"><v-icon class="icon" name="bi-facebook"
+            scale="1.5" animation="wrench" hover />Facebook</a>
+        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank"><v-icon class="icon"
+            name="bi-youtube" scale="1.5" animation="wrench" hover />YouTube</a>
         <router-link to="/contact">Contact Us</router-link>
         <router-link to="/giving">Support Us</router-link>
-        <router-link to="/agm">AGM</router-link>
+        <router-link to="/agm">A.G.M.</router-link>
       </div>
     </Transition>
     <div id="nav-container">
@@ -66,19 +56,20 @@ export default {
         <router-link to="/planavisit">Plan a visit</router-link>
         <router-link to="/pastsermons">Past sermons</router-link>
         <router-link to="/aboutus">About us</router-link>
-        <router-link to="/giving">Giving</router-link>
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/giving">Support us</router-link>
+        <router-link to="/contact">Contact us</router-link>
       </nav>
     </div>
     <Transition>
       <div id="nav-container-mobile" v-if="showTopHeaderMobile">
         <nav>
           <router-link to="/"><img src="../../assets/images/fellowship_icon.png" /></router-link>
+          <router-link to="/whatsnew">What's new</router-link>
           <router-link to="/planavisit">Plan a visit</router-link>
           <router-link to="/pastsermons">Past sermons</router-link>
           <router-link to="/aboutus">About us</router-link>
-          <router-link to="/giving">Giving</router-link>
-          <router-link to="/contact">Contact</router-link>
+          <router-link to="/giving">Support us</router-link>
+          <router-link to="/contact">Contact us</router-link>
         </nav>
       </div>
     </Transition>
@@ -103,18 +94,20 @@ export default {
 
 #top-header,
 #top-header-mobile {
-  padding: 1.2rem 3rem;
+  padding: 1.5rem 3rem;
   background: linear-gradient(colors.$primary-light, colors.$primary);
   display: grid;
-  grid-template-columns: 45% repeat(6, 1fr);
-  grid-column-gap: 1rem;
+  grid-template-columns: repeat(6, max-content);
+  grid-column-gap: 3rem;
   place-items: center;
+  justify-content: end;
   color: white;
 
   @media only screen and (max-width: dimensions.$tablet-width) {
     display: flex;
     justify-content: center;
   }
+
   @media only screen and (max-width: dimensions.$mobile-width) {
     display: flex;
     flex-direction: column;
@@ -132,6 +125,7 @@ export default {
     grid-template-columns: repeat(2, max-content);
     grid-column-gap: 0.2rem;
     align-items: center;
+
     &,
     &:visited {
       font-size: font.$font-size-500;
@@ -156,6 +150,7 @@ export default {
     align-items: center;
   }
 }
+
 .v-enter-active,
 .v-leave-active {
   transition: all 0.3s ease;
@@ -174,8 +169,10 @@ export default {
   @media only screen and (max-width: dimensions.$tablet-width) {
     padding: 1rem;
   }
+
   @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
+
     &#nav-container {
       display: none;
     }
@@ -195,6 +192,7 @@ export default {
     @media only screen and (max-width: dimensions.$tablet-width) {
       grid-column-gap: 1rem;
     }
+
     @media only screen and (max-width: dimensions.$mobile-width) {
       display: flex;
       flex-direction: column;
@@ -204,16 +202,18 @@ export default {
     a {
       border-bottom: solid 2px transparent;
       transition: border 0.1s;
+
       &,
       &:visited {
-        color: black;
-        font-size: font.$font-size-700;
+        color: colors.$primary-dark;
+        font-size: font.$font-size-800;
       }
 
       &:not(:nth-child(1)) {
+
         &:hover,
         &.router-link-active {
-          border-bottom: solid 2px colors.$primary;
+          border-bottom: solid 2px colors.$primary-light;
         }
       }
     }
@@ -231,6 +231,7 @@ main {
     padding: 2rem;
     margin: 0rem 2rem;
   }
+
   @media only screen and (max-width: dimensions.$mobile-width) {
     margin: 0;
     padding: 1rem;
@@ -250,6 +251,7 @@ footer {
   @media only screen and (max-width: dimensions.$tablet-width) {
     margin-top: 2rem;
   }
+
   @media only screen and (max-width: dimensions.$mobile-width) {
     padding: 1rem;
     margin: 0;

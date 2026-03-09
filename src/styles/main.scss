@@ -19,7 +19,7 @@ body {
 
 // paragraphs
 p {
-  font-size: font.$font-size-500;
+  font-size: font.$font-size-600;
 }
 
 // anchors
@@ -86,4 +86,10 @@ img {
 
 .half-width-image {
   width: 50%;
+}
+
+section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
 }

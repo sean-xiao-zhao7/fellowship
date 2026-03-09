@@ -42,6 +42,71 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
       </div>
     </section>
     <div class="divider"></div>
+    <section>
+      <h2>Multi-sport Summer Camp</h2>
+      <p>
+        Our annual sports camp for kids and family is back again in July. For one week, engage kids
+        in active group program that foster friendship, leadership, character and other skills. FCA
+        Canada, Fellowship Church, and other partners will work together again to be a light in the
+        community.
+      </p>
+      <div class="flex-center-section">
+        <p>
+          <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951">Sign up today</a>
+        </p>
+        <p>
+          <a href="https://canadafca.ca/fcasports">More info on FCA website</a>
+        </p>
+      </div>
+      <div class="icon-row">
+        <v-icon
+          class="icon"
+          name="hi-solid-location-marker"
+          scale="2.5"
+          fill="#4486bf"
+          animation="wrench"
+          hover
+        />
+        <div>
+          <p>Century City 933 Focal Rd, Mississauga, ON</p>
+        </div>
+      </div>
+      <div class="icon-row">
+        <v-icon
+          class="icon"
+          name="bi-calendar"
+          scale="2.5"
+          fill="#4486bf"
+          animation="wrench"
+          hover
+        />
+        <div>
+          <p>July 13th to 17th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
+        </div>
+      </div>
+      <div class="icon-row">
+        <v-icon
+          class="icon"
+          name="bi-person-circle"
+          scale="2.5"
+          fill="#4486bf"
+          animation="wrench"
+          hover
+        />
+        <div>
+          <p>Age range: 5 to 14.</p>
+        </div>
+      </div>
+
+      <div class="half-width-image-container">
+        <img
+          src="../assets/images/fca/2026_summer_camp.png"
+          alt="2026 Summer camp"
+          class="half-width-image"
+        />
+      </div>
+    </section>
+    <div class="divider"></div>
     <h1>Past events</h1>
     <section>
       <h2>Christmas Series 2025</h2>
@@ -113,7 +178,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
 
       <div class="half-width-image-container">
         <img
-          src="../assets/images/fca/fellowship_multisport_summer_camp_2025.png"
+          src="../assets/images/fca/2025_summer_camp.png"
           alt="10th anniversary poster"
           class="half-width-image"
         />
