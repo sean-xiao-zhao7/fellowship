@@ -17,10 +17,21 @@ body {
   font-family: font.$lora;
 }
 
+// headings
+h1,
+h2,
+h3 {
+  color: colors.$primary-dark;
+}
+
 // paragraphs
 p {
   font-size: font.$font-size-600;
   margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // anchors
