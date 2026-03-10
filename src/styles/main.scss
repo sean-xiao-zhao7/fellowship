@@ -102,3 +102,19 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+
+.image-right-container {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 80% 17%;
+  grid-gap: 2rem;
+  justify-items: center;
+  align-content: center;
+
+  &>img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+}

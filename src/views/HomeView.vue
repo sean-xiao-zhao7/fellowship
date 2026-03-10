@@ -110,55 +110,59 @@ export default {
     </div>
   </section>
   <div class="divider"></div>
-  <img src="../assets/images/hero_background.jpg" class="float-right" />
-  <section>
-    <h2>Visit us - everyone welcome!</h2>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="bi-clock-fill" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <div>
-        <p>Every Sunday 11AM - In person and on Zoom</p>
-      </div>
+  <div class="image-right-container">
+    <div>
+      <section>
+        <h2>Visit us - everyone welcome!</h2>
+        <div class="home-section-icon-row">
+          <v-icon class="icon" name="bi-clock-fill" scale="2.5" fill="#4486bf" animation="wrench" hover />
+          <div>
+            <p>Every Sunday 11AM - In person and on Zoom</p>
+          </div>
+        </div>
+        <div class="home-section-icon-row">
+          <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
+          <div>
+            <p>River Grove Community Center - Bristol & Creditview.</p>
+            <p><a href="https://goo.gl/maps/KUdqaeY1iRCyBEms9" target="_blank">5800 River Grove Ave. Mississauga,
+                Ontario.</a></p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Fun activities for kids!</h2>
+        <div class="home-section-icon-row">
+          <v-icon class="icon" name="la-user-friends-solid" scale="2.5" fill="#4486bf" animation="wrench" hover />
+          <div>
+            <p>
+              Fun for family and kids, preschool and nursery provided children's program during service
+              every Sunday.
+            </p>
+            <p>Activities include arts & crafts, games, books, etc.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Current sermon series</h2>
+        <div class="home-section-icon-row">
+          <v-icon class="icon" name="fa-bible" scale="2.5" fill="#4486bf" animation="wrench" hover />
+          <p>
+            The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
+            the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
+            into legalism.
+          </p>
+        </div>
+        <div class="home-section-icon-row">
+          <v-icon class="icon" name="bi-youtube" scale="2.5" fill="#4486bf" animation="wrench" hover />
+          <p>
+            <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank">Listen to sermons on
+              YouTube</a>
+          </p>
+        </div>
+      </section>
     </div>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <div>
-        <p>River Grove Community Center - Bristol & Creditview.</p>
-        <p>5800 River Grove Ave. Mississauga, Ontario.</p>
-        <a href="https://goo.gl/maps/KUdqaeY1iRCyBEms9" target="_blank">See on Google Maps</a>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h2>Fun activities for kids!</h2>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="la-user-friends-solid" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <div>
-        <p>
-          Fun for family and kids, preschool and nursery provided children's program during service
-          every Sunday.
-        </p>
-        <p>Activities include arts & crafts, games, books, etc.</p>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h2>Current sermon series</h2>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="fa-bible" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <p>
-        The Law, The Covenant and The Spirit. Learn how to apply Old Testament laws and concepts in
-        the modern context. Avoid the pitfall of misinterpretating the Old Testament and falling
-        into legalism.
-      </p>
-    </div>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="bi-youtube" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <p>
-        <a href="https://www.youtube.com/@fellowshipchurchrivergrove5221" target="_blank">Listen to sermons on
-          YouTube</a>
-      </p>
-    </div>
-  </section>
+    <img src="../assets/images/hero_background.jpg" />
+  </div>
   <div class="divider"></div>
   <section class="flex-center-section">
     <div class="logo-row">
@@ -853,7 +857,6 @@ export default {
 @use '../styles/dimensions.scss';
 
 section {
-  margin-top: 1rem;
 
   &#news,
   &.news {
