@@ -34,11 +34,13 @@ export default {
 </script>
 
 <template>
-  <!-- hero / intro with image  -->
+  <!-- top banner image  -->
   <img src="../assets/images/hero_background3.jpg" class="home-intro-image" />
+
+  <!-- hero / intro with image  -->
   <section id="hero">
     <h1>Fellowship Church Streetsville</h1>
-    <h2>Serving Mississauga, the GTA and southern Ontario</h2>
+    <h2>Serving Mississauga, the GTA and southern Ontario.</h2>
     <p>
       Practical truth for everyday life.
     </p>
@@ -53,7 +55,7 @@ export default {
 
   <!-- current news -->
   <section class="news">
-    <h2>Counseling workshop series #2 - Anxiety</h2>
+    <h2>Counseling Workshop Series #2 - Anxiety</h2>
     <p>
       The second counseling and healing workshop will be on March 29th. The focus will be on anxiety.
       Whether you've battled anxiety for years, feel overwhelmed in this season, or simply want to better support
@@ -121,7 +123,7 @@ export default {
   <div class="image-column-container">
     <div>
       <section>
-        <h2>Visit us - everyone is welcome</h2>
+        <h2>Visit us - Everyone is welcome</h2>
         <div class="home-section-icon-row">
           <v-icon class="icon" name="bi-clock-fill" scale="2.5" fill="#4486bf" animation="wrench" hover />
           <div>
@@ -179,38 +181,6 @@ export default {
 
   <div class="divider"></div>
 
-  <!-- FCA -->
-  <section class="flex-center-section">
-    <div class="logo-row">
-      <a href="https://www.canadafca.ca/about#1388821689" target="_blank"><img
-          src="../assets/images/fca_canada_logo.png" id="fca-canada-logo" /></a>
-      <a href="https://my.fca.org/davidtrenado" target="_blank"><img src="../assets/images/fca_logo_small.png" /></a>
-    </div>
-    <h2>FCA - Fellowship of Christian Athletes Canada</h2>
-    <div class="home-section-icon-row">
-      <v-icon class="icon" name="fc-sports-mode" scale="2.5" fill="#4486bf" animation="wrench" hover />
-      <div>
-        <p>
-          An inter-denominational Christian sports ministry impacting the world for Jesus
-          Christ through the influence of Christian athletes and coaches.
-        </p>
-        <p>
-          Fellowship Church works closely with FCA Canada, and pastor David is the National Director
-          of FCA Sports.
-        </p>
-        <p>
-          FCA have summer camps for kids in various sports like soccer, basketball, volleyball and
-          more every year!
-        </p>
-        <p>
-          Please contact us if you want to enroll your kid in FCA summer camps or other activities.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
   <!-- church ministries -->
   <div class="image-column-container image-left">
     <img src="../assets/images/hero_background2.jpg" />
@@ -244,6 +214,38 @@ export default {
       </section>
     </div>
   </div>
+
+  <div class="divider"></div>
+
+  <!-- FCA -->
+  <section class="flex-center-section">
+    <div class="logo-row">
+      <a href="https://www.canadafca.ca/about#1388821689" target="_blank"><img
+          src="../assets/images/fca_canada_logo.png" id="fca-canada-logo" /></a>
+      <a href="https://my.fca.org/davidtrenado" target="_blank"><img src="../assets/images/fca_logo_small.png" /></a>
+    </div>
+    <h2>FCA - Fellowship of Christian Athletes Canada</h2>
+    <div class="home-section-icon-row">
+      <v-icon class="icon" name="fc-sports-mode" scale="2.5" fill="#4486bf" animation="wrench" hover />
+      <div>
+        <p>
+          An inter-denominational Christian sports ministry impacting the world for Jesus
+          Christ through the influence of Christian athletes and coaches.
+        </p>
+        <p>
+          Fellowship Church works closely with FCA Canada, and pastor David is the National Director
+          of FCA Sports.
+        </p>
+        <p>
+          FCA have summer camps for kids in various sports like soccer, basketball, volleyball and
+          more every year!
+        </p>
+        <p>
+          Please contact us if you want to enroll your kid in FCA summer camps or other activities.
+        </p>
+      </div>
+    </div>
+  </section>
 
   <div class="divider"></div>
 
@@ -318,8 +320,13 @@ section:not(#hero) {
 }
 
 #hero {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 2rem 10rem;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    padding: 1rem;
+    margin-top: 0;
+  }
 
   h1 {
     color: colors.$primary-dark;
@@ -330,16 +337,25 @@ section:not(#hero) {
 
     @media only screen and (max-width: dimensions.$mobile-width) {
       font-size: font.$font-size-700;
+      margin-bottom: 1rem;
     }
   }
 
   h2 {
     margin-bottom: 2rem;
     text-align: start;
+
+    @media only screen and (max-width: dimensions.$mobile-width) {
+      margin-bottom: 1rem;
+    }
   }
 
   p {
     padding-bottom: 1rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
 
     @media only screen and (max-width: dimensions.$tablet-width) {
       margin: 2rem 3rem;
@@ -347,8 +363,18 @@ section:not(#hero) {
     }
 
     @media only screen and (max-width: dimensions.$mobile-width) {
-      margin: 1rem;
+      margin: 0;
     }
+  }
+}
+
+// images
+img.home-intro-image {
+  width: 100%;
+  height: 17rem;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    height: 12rem;
   }
 }
 
@@ -379,11 +405,6 @@ img.float-left {
       display: none;
     }
   }
-}
-
-img.home-intro-image {
-  width: 100%;
-  height: 17rem;
 }
 
 h2 {

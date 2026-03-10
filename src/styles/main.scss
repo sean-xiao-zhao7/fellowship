@@ -99,6 +99,10 @@ section {
   background-color: white;
   border-radius: 10px;
   padding: 2rem 10rem;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    padding: 1rem;
+  }
 }
 
 // flex containers
@@ -113,6 +117,10 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    flex-direction: column;
+  }
 }
 
 .image-column-container {
@@ -122,6 +130,11 @@ section {
   grid-gap: 2rem;
   justify-items: center;
   align-content: center;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    display: flex;
+    flex-direction: column;
+  }
 
   &>img {
     max-width: 100%;
@@ -133,4 +146,9 @@ section {
 
 .image-column-container.image-left {
   grid-template-columns: 17% 80%;
+
+  @media only screen and (max-width: dimensions.$mobile-width) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

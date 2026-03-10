@@ -668,6 +668,10 @@ export default {
         width: 25rem;
         margin: 1rem auto;
         font-size: font.$font-size-600;
+
+        @media only screen and (max-width: dimensions.$mobile-width) {
+            width: 100%;
+        }
     }
 }
 </style>

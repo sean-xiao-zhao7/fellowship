@@ -25,7 +25,7 @@ export default {
   <header>
     <div id="top-header-mobile-hamburger" @click="toggleTopHeaderMobile">
       <v-icon class="icon" name="gi-hamburger-menu" scale="1.5" fill="white" />
-      <span>Fellowship Church Streetsville</span>
+      <span class="mobile-header-title">Fellowship Church Streetsville</span>
     </div>
     <div id="top-header">
       <div></div>
@@ -148,6 +148,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .mobile-header-title {
+    font-size: font.$font-size-500;
   }
 }
 
