@@ -50,73 +50,64 @@ export default {
     </p>
   </section>
   <div class="divider"></div>
-  <section id="news">
-    <h2>SoulCare workshop 2 - Anxiety</h2>
-    <section>
-      <p>
-        Join our 2nd healing and counselling workshop on Sunday March 29th!
-      </p>
-      <p>
-        Topic: Anxiety
-      </p>
-      <br />
-      <p>
-        We’ll talk openly about what anxiety is & how it affects us at all levels.
-      </p>
-      <p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p>
-      <p>
-        Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support
-        someone you love, this workshop is for you.
-        We'll have breakfast together before workshop, as always at 11AM. </p>
-      <p>
-      </p>
-      <p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons
-        page.
-      </p>
-    </section>
+  <section class="news">
+    <h2>Counseling workshop series #2 - Anxiety</h2>
+    <p>
+      The second counseling and healing workshop will be on March 29th. The focus will be on anxiety.
+      Whether you've battled anxiety for years, feel overwhelmed in this season, or simply want to better support
+      someone you love, this workshop is for you.
+    </p>
+    <p>
+      We'll have breakfast together before workshop, as always at 11AM. </p>
+    <p>
+    </p>
+    <p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons
+      page.
+    </p>
     <div class="half-width-image-container">
       <img src="../assets/images/events/counselling.png" alt="Soul Care Workshop Series" class="half-width-image" />
     </div>
-    <div class="divider"></div>
+  </section>
+  <div class="divider"></div>
+  <section class="news">
+    <h2>Multi-sport Summer Camp 2026</h2>
+    <p>
+      Our annual sports camp for kids and family is back again in July. For one week, engage kids
+      in active group program that foster friendship, leadership, character and other skills.
+    </p>
+    <p>
+      FCA
+      Canada, Fellowship Church, and other partners will work together again to be a light to the
+      community.
+    </p>
+    <div class="home-section-icon-row">
+      <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
+      <div>
+        <p><a href='https://maps.app.goo.gl/G8ZhKy98ZtAkR3em6' target='_blank'>Century City 933 Focal Rd, Mississauga,
+            ON.</a></p>
+      </div>
+    </div>
+    <div class="home-section-icon-row">
+      <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
+      <div>
+        <p>July 13th to 17th. Daily 9AM to 4PM.</p>
+      </div>
+    </div>
+    <div class="home-section-icon-row">
+      <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
+      <div>
+        <p>Age range: 5 to 14.</p>
+      </div>
+    </div>
     <section>
-      <h2>Multi-sport Summer Camp</h2>
-      <p>
-        Our annual sports camp for kids and family is back again in July. For one week, engage kids
-        in active group program that foster friendship, leadership, character and other skills. FCA
-        Canada, Fellowship Church, and other partners will work together again to be a light in the
-        community.
-      </p>
-      <div class="flex-center-section">
-        <p>
-          <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951">Sign up today</a>
-        </p>
-        <p>
-          <a href="https://canadafca.ca/fcasports">More info on FCA website</a>
-        </p>
-      </div>
-      <div class="icon-row">
-        <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
-        <div>
-          <p>Century City 933 Focal Rd, Mississauga, ON</p>
-        </div>
-      </div>
-      <div class="icon-row">
-        <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
-        <div>
-          <p>July 13th to 17th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
-        </div>
-      </div>
-      <div class="icon-row">
-        <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
-        <div>
-          <p>Age range: 5 to 14.</p>
-        </div>
-      </div>
-
-      <div class="half-width-image-container">
-        <img src="../assets/images/fca/2026_summer_camp.png" alt="2026 Summer camp" class="half-width-image" />
+      <div class="flex-center-section-row">
+        <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951" target="_blank">Sign up today!</a>
+        <a href="https://canadafca.ca/fcasports" target="_blank">More info on the FCA website</a>
       </div>
     </section>
+    <div class="half-width-image-container">
+      <img src="../assets/images/fca/2026_summer_camp.png" alt="2026 Summer camp" class="half-width-image" />
+    </div>
   </section>
   <div class="divider"></div>
   <img src="../assets/images/hero_background.jpg" class="float-right" />
@@ -143,7 +134,7 @@ export default {
       <v-icon class="icon" name="la-user-friends-solid" scale="2.5" fill="#4486bf" animation="wrench" hover />
       <div>
         <p>
-          Fun for family and kids, preschool and nursery provided children’s program during service
+          Fun for family and kids, preschool and nursery provided children's program during service
           every Sunday.
         </p>
         <p>Activities include arts & crafts, games, books, etc.</p>
@@ -368,14 +359,14 @@ export default {
                 and asks if we can buy one. In order to be able to perform the duties of the
                 assigned work she is in need of one. Balfour commits to take care of this since he
                 can get good price through his company, and this will include one for Ruth Ann as
-                well. We continue explaining the church’s finances. We will continue to renew the
+                well. We continue explaining the church's finances. We will continue to renew the
                 rental contracts with the city, since we want and need to keep the place. Sean
                 presents a motion to receive the financial reports, seconded by Yvonne, Mike and
                 Balfour. Accepted.
               </li>
               <li>
                 Budget: The 2025 Budget is presented to the church for consideration. Additions,
-                David’s salary, even if he is tithing back, should show. As well as there is
+                David's salary, even if he is tithing back, should show. As well as there is
                 correction of the total amounts of Activities expenses from $1100 to $1200. The
                 corrections will be made and added to the final 2025 Budget and presented
                 accordingly. A motion is presented to accept the budget with the noted corrections
@@ -481,7 +472,7 @@ export default {
             Task of Fellowship Church without charging the church fees for his services.
           </li>
           <li>
-            2024 Activities, we continue to have our regular activities, but we’ll make time to plan
+            2024 Activities, we continue to have our regular activities, but we'll make time to plan
             additional for 2024.
           </li>
           <li>
@@ -568,7 +559,7 @@ export default {
                 <ul>
                   <li>Sports Camps</li>
                   <li>Christmas Service on December 18th, 2022</li>
-                  <li>Christmas Eve Service at the Baird’s House 6 pm</li>
+                  <li>Christmas Eve Service at the Baird's House 6 pm</li>
                   <li>Easter Egg Hunt in 2023</li>
                   <li>Summer Camps 2023</li>
                   <li>Thanksgiving Service October 8th, 2023.</li>
@@ -718,7 +709,7 @@ export default {
             same time, costs related to rental of the Community Center, does not reflect that drop
             down as a loss. Balfour proposes that the surplus of cash in the bank accounts can be
             located in an investment fund. Giovanna Andrea explains we have tried to do that last
-            year with GIC’s but the interest rates were very low. Balfour suggests to contact the
+            year with GIC's but the interest rates were very low. Balfour suggests to contact the
             bank and find information on other type of funds with a good portfolio investment to
             invest 10.000 in it. Giovanna Andrea commits to present to the Board the results of the
             investment options on the future BOD Meeting.
@@ -864,9 +855,19 @@ export default {
 section {
   margin-top: 1rem;
 
-  &#news {
+  &#news,
+  &.news {
     a {
       text-align: center;
+    }
+
+    &>p {
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      text-align: start;
+      margin-bottom: 1rem;
     }
   }
 
@@ -905,7 +906,7 @@ section {
 }
 
 section:not(#hero) {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -918,9 +919,9 @@ section:not(#hero) {
 
 #hero {
   margin-top: 2rem;
+  padding: 2rem 10rem;
 
   h1 {
-    text-align: center;
     color: colors.$primary-dark;
 
     @media only screen and (max-width: dimensions.$tablet-width) {
@@ -934,11 +935,11 @@ section:not(#hero) {
 
   h2 {
     margin-bottom: 2rem;
+    text-align: start;
   }
 
   p {
     padding-bottom: 1rem;
-    margin: 0rem 7rem;
 
     @media only screen and (max-width: dimensions.$tablet-width) {
       margin: 2rem 3rem;

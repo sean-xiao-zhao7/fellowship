@@ -25,7 +25,7 @@ p {
 // anchors
 a {
   text-decoration: none;
-  font-size: font.$font-size-500;
+  font-size: font.$font-size-600;
 }
 
 a:hover {
@@ -52,13 +52,7 @@ ol {
   list-style-position: inside;
 }
 
-// images
-img {
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-// custom classes
+// divider
 .divider {
   height: 1px;
   clear: both;
@@ -70,10 +64,10 @@ img {
   }
 }
 
-.flex-center-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// images
+img {
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .full-width-image {
@@ -88,8 +82,23 @@ img {
   width: 50%;
 }
 
+// section
 section {
   background-color: white;
-  padding: 2rem;
   border-radius: 10px;
+  padding: 2rem 10rem;
+}
+
+// flex containers
+.flex-center-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-center-section-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
