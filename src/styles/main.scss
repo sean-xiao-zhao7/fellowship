@@ -13,13 +13,14 @@ body {
 }
 
 body {
-  font-size: font.$font-size-400;
+  font-size: font.$font-size-600;
   font-family: font.$lora;
 }
 
 // paragraphs
 p {
   font-size: font.$font-size-600;
+  margin-bottom: 1rem;
 }
 
 // anchors
@@ -103,7 +104,7 @@ section {
   align-items: center;
 }
 
-.image-right-container {
+.image-column-container {
   overflow: hidden;
   display: grid;
   grid-template-columns: 80% 17%;
@@ -117,4 +118,8 @@ section {
     height: 100%;
     overflow: hidden;
   }
+}
+
+.image-column-container.image-left {
+  grid-template-columns: 17% 80%;
 }
