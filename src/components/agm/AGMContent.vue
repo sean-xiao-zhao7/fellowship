@@ -650,10 +650,14 @@ export default {
     }
 
     ul {
-        padding: 1rem;
+        padding: 0 1rem;
         background-color: white;
-        margin: 1rem 0;
         border-radius: 5px;
+
+        @media only screen and (max-width: dimensions.$tablet-width) {
+            padding: 0;
+            margin: 1rem 0;
+        }
     }
 
     ol,
@@ -671,6 +675,7 @@ export default {
 
         @media only screen and (max-width: dimensions.$mobile-width) {
             width: 100%;
+            font-size: font.$font-size-500;
         }
     }
 }

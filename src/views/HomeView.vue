@@ -106,12 +106,11 @@ export default {
         <p>Age range: 5 to 14.</p>
       </div>
     </div>
-    <section>
-      <div class="flex-center-section-row">
-        <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951" target="_blank">Sign up today!</a>
-        <a href="https://canadafca.ca/fcasports" target="_blank">More info on the FCA website</a>
-      </div>
-    </section>
+    <div class="flex-center-section-row">
+      <a href="https://app.teamlinkt.com/register/find/fcacanada?cid=63951" target="_blank">Sign up today!</a>
+      <a href="https://canadafca.ca/fcasports" target="_blank">More info on the FCA website</a>
+    </div>
+    <br />
     <div class="half-width-image-container">
       <img src="../assets/images/fca/2026_summer_camp.png" alt="2026 Summer camp" class="half-width-image" />
     </div>
@@ -278,26 +277,14 @@ section {
     grid-template-columns: 15% 1fr;
     align-items: center;
     margin-bottom: 0.5rem;
+    grid-gap: 1rem;
 
     @media only screen and (max-width: dimensions.$mobile-width) {
-      grid-template-columns: 20% 1fr;
+      grid-template-columns: 10% 1fr;
     }
 
     .icon {
       justify-self: center;
-    }
-  }
-
-  h2 {
-    @media only screen and (max-width: dimensions.$mobile-width) {
-      font-size: font.$font-size-700;
-    }
-  }
-
-  p,
-  a {
-    @media only screen and (max-width: dimensions.$tablet-width) {
-      font-size: font.$font-size-500;
     }
   }
 
@@ -347,6 +334,7 @@ section:not(#hero) {
 
     @media only screen and (max-width: dimensions.$mobile-width) {
       margin-bottom: 1rem;
+      font-size: font.$font-size-600;
     }
   }
 
@@ -359,7 +347,6 @@ section:not(#hero) {
 
     @media only screen and (max-width: dimensions.$tablet-width) {
       margin: 2rem 3rem;
-      font-size: font.$font-size-500;
     }
 
     @media only screen and (max-width: dimensions.$mobile-width) {
@@ -414,7 +401,8 @@ h2 {
   font-size: 2rem;
 
   @media only screen and (max-width: dimensions.$tablet-width) {
-    font-size: font.$font-size-700;
+    font-size: font.$font-size-600;
+    margin-bottom: 1rem;
   }
 }
 
