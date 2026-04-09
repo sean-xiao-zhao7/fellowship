@@ -21,24 +21,27 @@ export default {
     </div>
     <div class="divider"></div>
     <section>
-      <h2>Soul Care Workshop #2: Anxiety</h2>
+      <h2>Soul Care Workshop #3: Anxiety Part 2</h2>
       <p>
-      Join our 2nd healing and counselling workshop on Sunday March 29th! 
-      Topic: Anxiety
-      </p><p>
-We’ll talk openly about what anxiety is & how it affects us at all levels. 
-</p><p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p><p>
-Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support someone you love, this workshop is for you.
-We'll have breakfast together before workshop, as always at 11AM. </p><p>
-</p><p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons page.
-</p>
-<br />
+        Join our 3rd healing and counselling workshop on Sunday April 26th!
+        Topic: Anxiety
+      </p>
+      <p>
+        We’ll talk openly about what anxiety is & how it affects us at all levels.
+      </p>
+      <p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p>
+      <p>
+        Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support
+        someone you love, this workshop is for you.
+        We'll have breakfast together before workshop, as always at 11AM. </p>
+      <p>
+      </p>
+      <p>Thank you all for coming to our previous workshop on anxiety part 1, the recording can be found in the Past
+        Sermons page.
+      </p>
+      <br />
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/events/counselling.png"
-          alt="Soul Care Workshop Series"
-          class="half-width-image"
-        />
+        <img src="../assets/images/events/counselling.png" alt="Soul Care Workshop Series" class="half-width-image" />
       </div>
     </section>
     <div class="divider"></div>
@@ -59,51 +62,26 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
         </p>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="hi-solid-location-marker"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Century City 933 Focal Rd, Mississauga, ON</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-calendar"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>July 13th to 17th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-person-circle"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Age range: 5 to 14.</p>
         </div>
       </div>
 
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/fca/2026_summer_camp.png"
-          alt="2026 Summer camp"
-          class="half-width-image"
-        />
+        <img src="../assets/images/fca/2026_summer_camp.png" alt="2026 Summer camp" class="half-width-image" />
       </div>
     </section>
     <div class="divider"></div>
@@ -112,11 +90,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
       <h2>Christmas Series 2025</h2>
       <h2>LIGHT HAS COME</h2>
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/events/christmas_2025.png"
-          alt="Easter event poster"
-          class="half-width-image"
-        />
+        <img src="../assets/images/events/christmas_2025.png" alt="Easter event poster" class="half-width-image" />
       </div>
     </section>
     <div class="divider"></div>
@@ -137,51 +111,26 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
         </p>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="hi-solid-location-marker"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Century City 933 Focal Rd, Mississauga, ON</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-calendar"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>July 7th to 11th. Daily schedule: Drop off at 9AM, pickup at 4PM.</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-person-circle"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Age range: 5 to 14.</p>
         </div>
       </div>
 
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/fca/2025_summer_camp.png"
-          alt="10th anniversary poster"
-          class="half-width-image"
-        />
+        <img src="../assets/images/fca/2025_summer_camp.png" alt="10th anniversary poster" class="half-width-image" />
       </div>
     </section>
     <div class="divider"></div>
@@ -195,50 +144,26 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
         </p>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="hi-solid-location-marker"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="hi-solid-location-marker" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>River Grove CC.</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-calendar"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-calendar" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Feb. 22nd, Saturday, 6PM.</p>
         </div>
       </div>
       <div class="icon-row">
-        <v-icon
-          class="icon"
-          name="bi-person-circle"
-          scale="2.5"
-          fill="#4486bf"
-          animation="wrench"
-          hover
-        />
+        <v-icon class="icon" name="bi-person-circle" scale="2.5" fill="#4486bf" animation="wrench" hover />
         <div>
           <p>Age range: 5 to 14.</p>
         </div>
       </div>
       <div class="half-width-image-container">
-        <img
-          src="../assets/images/events/10th_anniversary.jpg"
-          alt="10th anniversary poster"
-          class="half-width-image"
-        />
+        <img src="../assets/images/events/10th_anniversary.jpg" alt="10th anniversary poster"
+          class="half-width-image" />
       </div>
     </section>
     <div class="divider"></div>
@@ -277,7 +202,7 @@ We'll have breakfast together before workshop, as always at 11AM. </p><p>
     }
   }
 
-  & > div {
+  &>div {
     @media only screen and (max-width: dimensions.$tablet-width) {
       padding-right: 2rem;
     }

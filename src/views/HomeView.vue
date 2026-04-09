@@ -55,9 +55,9 @@ export default {
 
   <!-- current news -->
   <section class="news">
-    <h2>Counseling Workshop Series #2 - Anxiety</h2>
+    <h2>Counseling Workshop Series #3 - Anxiety Part 2</h2>
     <p>
-      The second counseling and healing workshop will be on March 29th. The focus will be on anxiety.
+      The second counseling and healing workshop will be on April 26th. The focus will be on anxiety.
       Whether you've battled anxiety for years, feel overwhelmed in this season, or simply want to better support
       someone you love, this workshop is for you.
     </p>
@@ -69,7 +69,7 @@ export default {
       page.
     </p>
     <div class="half-width-image-container">
-      <img src="../assets/images/events/counselling.png" alt="Soul Care Workshop Series" class="half-width-image" />
+      <img src="../assets/images/events/counselling3.png" alt="Soul Care Workshop Series" class="half-width-image" />
     </div>
   </section>
 
