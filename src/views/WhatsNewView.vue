@@ -19,31 +19,28 @@ export default {
         lately.
       </p>
     </div>
+
     <div class="divider"></div>
+
     <section>
-      <h2>Soul Care Workshop #3: Anxiety Part 2</h2>
+      <h2>Counseling Workshop Series #4 - Anxiety Part 3 - May 31st</h2>
       <p>
-        Join our 3rd healing and counselling workshop on Sunday April 26th!
-        Topic: Anxiety
-      </p>
-      <p>
-        We’ll talk openly about what anxiety is & how it affects us at all levels.
-      </p>
-      <p>Together, we’ll explore practical tools, and healthy ways to navigate anxious thoughts.</p>
-      <p>
-        Whether you’ve battled anxiety for years, feel overwhelmed in this season, or simply want to better support
+        The third counseling and healing workshop will be on May 31st. The focus will be on anxiety.
+        Whether you've battled anxiety for years, feel overwhelmed in this season, or simply want to better support
         someone you love, this workshop is for you.
+      </p>
+      <p>
         We'll have breakfast together before workshop, as always at 11AM. </p>
       <p>
       </p>
-      <p>Thank you all for coming to our previous workshop on anxiety part 1, the recording can be found in the Past
-        Sermons page.
+      <p>Thank you all for coming to our 1st workshop on loneliness, the recording can be found in the Past Sermons
+        page.
       </p>
-      <br />
       <div class="half-width-image-container">
-        <img src="../assets/images/events/counselling.png" alt="Soul Care Workshop Series" class="half-width-image" />
+        <img src="../assets/images/events/workshop4.png" alt="Soul Care Workshop Series" class="half-width-image" />
       </div>
     </section>
+
     <div class="divider"></div>
     <section>
       <h2>Multi-sport Summer Camp</h2>
